@@ -1,0 +1,5 @@
+Performing Incremental Install
+Success
+Install command complete in 2601 ms
+L24: won=false moves=2 not accepted after 2 crop-change: m1:11.4% m2:4.5%
+L48: won=true moves=11  crop-change: m1:12.0% m2:11.6% m3:3.9% m4:8.7% m5:2.1% m6:3.8% m7:91.8% m8:85.8% m9:4.6% m10:1.7% m11:89.8%

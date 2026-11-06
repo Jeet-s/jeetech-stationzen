@@ -1,0 +1,6 @@
+[{"tap":[540,1935]},{"wait":3500},
+ {"swipe":[540,700,540,1100],"ms":700},{"wait":1500},
+ {"tap":[750,2230]},{"wait":4500,"shot":"a_after_run1"},
+ {"swipe":[540,1240,540,1500],"ms":800},{"wait":250,"shot":"b_ext"},{"wait":1500,"shot":"c_ext2"},
+ {"tap":[750,2230]},{"wait":4500,"shot":"d_after_run2"},
+ {"tap":[750,2230]},{"wait":300,"shot":"e_r3a"},{"wait":1500,"shot":"f_r3b"},{"wait":1500,"shot":"g_r3c"},{"wait":1200,"shot":"h_win1"},{"wait":1500,"shot":"i_win2"},{"wait":2500,"shot":"j_win3"}]

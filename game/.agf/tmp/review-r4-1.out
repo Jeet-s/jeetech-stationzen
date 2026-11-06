@@ -1,0 +1,64 @@
+PASS level_intents: all 120 levels have a specific intent
+PASS no_filler_levels: no trivial filler levels after the tutorial
+FAIL level_design: level-design review 7/10 (bar 8), 0 level(s) below 6/10: A strong, unusually well-documented set. Each level teaches one named idea and has a stated trap with a replayed proof. The calm framing (forecast rings, undo, restart from any week) is true to the doc. Most levels are solid. About 15 are real highlights: 4, 9, 29, 32, 39, 46, 51, 54, 62-style unequal-load levels, 70, 76, 81, 82, 98, 105, 111 and 112. The main problems are these:
+
+1. Repetition. The core aha 'split the long line / short lines run often' is the answer to about 40 levels (5, 10, 20, 33, 38, 41, 44, 45, 49, 52, 61-64, 101, 104 and others). Other repeated ideas are 'skip the silent stop' (8, 32, 76, 89, 90, 107) and 'give the heavy pair one line' (9, 20, 70, 103, 106, 112). Many later levels are the same puzzle in new terrain.
+2. Calm pillar versus failure. Heritage levels (109-120) say 'never full, not even once', and L119 says the run ends at once. That contradicts the 'never a surprise game over' positioning.
+3. Several 'weekly card' levels are not real choices. Both cards win (3, 4, 24, 36, 72, 78), so the pick is cosmetic.
+4. Difficulty hygiene. L21 is a very early reasoning spike (nearest-glyph) at 61% casual. L59 is an isolated 50% in the middle third. L62 and L88 have skilled barely above casual, so skill is not being rewarded. L115 is a 'breather' no easier than its neighbours.
+5. Many boss and finale traps are marked '?' (unverified), though the doc claims fairness.
+6. Maps are mostly tiny 5-9 stop grids with lots of 'dot' padding, and level shapes repeat (T, square, ring). Few boards feel like a place.
+7. Cities are unevenly sized. The first-third difficulty ramp is gentle, but L6, L9 and L21 jump. Curve: Order is mostly sound: each chapter introduces one mechanic alone (carriage 25, hills 37, ferry 49, snow 61, interchange 73, market 74, loops 85, waves 97, heritage 109), then combines it, then ends in a boss, a breather and a mastery send-off. Chapter rhythm is good, and the 'twist after the lesson' beats (29, 39, 46, 51, 57, 75) are the best pacing moments.
+
+Weaknesses:
+- L1-L3 stack three teaching levels, and L3 adds the weekly card as a second concept.
+- Difficulty spikes early: L6 (81%), L9 (73%), L21 (61% casual with an obscure nearest-glyph rule), then L23.
+- The middle third has isolated lows (L59 at 50%).
+- The last third averages about 62% casual, which is on target. But the final 20 levels are almost all 47-60%, a plateau with little recovery. Breathers L103 and L115 barely relieve it.
+- Chapter openers after L60 often mix 2+ rules at once (snow + ferry in L64, hills + loops in L88/L95) before the second rule is solid.
+- From L40 on, 'trap = the intuitive long line' becomes predictable. Players can learn 'always split' and stop reading the board, so the aha fades. The set needs more levels where the right answer is NOT to split (46, 55, 92, 101 are the good examples), spread through the whole run.
+REDESIGN THESE LEVELS (keep the ones not listed):
+L10 (6/10): Same lesson as L5 (split where the riders are, not at the junction) on a lane. Reads as a rerun. → Replace with a board where an equal split is right and the unequal one is the trap, to break the pattern.
+L20 (6/10): Recycles L9 (heavy pair on its own short line) with a tunnel, and the correct answer is nearly forced by the map. → Make the tunnel pair the heavy one and the short land line quiet so the player has to count seats, not copy L9.
+L21 (6/10): The aha depends on nearest-glyph route reasoning that is hard to read. 61% casual at L21 is an early spike, and the trap rate is unknown. This is hidden-information difficulty. → Move to L35+ or show the route preview on the planning screen and highlight which riders cross each river.
+L59 (6/10): 50% casual / 82% skilled is an isolated spike versus its neighbours (~66%), and the trap is 'take the wrong card' with an 8-week horizon. → Cut a week, give the carriage's value a clearer forecast, lower the goal.
+L62 (6/10): Skilled 77% barely above casual 73%: skill is not rewarded, so the solution is probably hard to find or fragile. → Re-test the intended path, make M-B-A obvious in the forecast, or loosen the goal.
+L88 (6/10): Skilled 77% vs casual 72% hints at unclear intent, and the level also has 3 mechanics. → Remove the hill; keep late station + loop.
+L115 (6/10): Casual 64% vs neighbours 63% and 59%: not easier, and a failing trap. → Lower goal and add forgiving spare tracks.
+L1 (7/10): Aha is trivial; a one-line, three-stop board with no choice reads as a scripted tutorial. → Keep it, but add a fourth stop off to the side that the player can skip, so the first drag is a real decision.
+L3 (7/10): Introduces the weekly card in the same level as the main lesson, and the card is a pure free gift. 97% casual is a walkover. → Move the card to its own mini-beat later (L4 already has one) and make the one-line trap lose slightly harder.
+L6 (7/10): 81% casual after three 90%+ levels is a sharp step. Two villages is a good idea but the board has 8 choices at the start and no hint. → Shrink the goal slightly or let the forecast flag the snake in the first planning screen with a visible amber ring.
+L7 (7/10): A breather this early dilutes momentum, and the pond ring map is mostly empty water. The one-line star is a drawing puzzle with little insight. → Move after L11 or add a small second mechanic; shrink the water padding.
+L8 (7/10): The key aha is 'skip a station nobody boards', which is obscure and is reused later (32, 76, 89, 90). The 6-hop line is also quite slow. → Make B send a small number of riders so skipping it is a priced trade, consistent with L94.
+L11 (7/10): Mostly L4 + L6 together; the card safety net removes the pressure of a boss, and the optimal moves are not verified. → Make the card choice matter (one pick clearly better) and add a second late stop to differentiate it.
+L14 (7/10): Close to L13: another 'pick which crossing'. Little new. → Give it two tunnels where one wrong placement strands a pier, or add a late pier.
+L19 (7/10): 93% casual and 100% skilled means no decisions. The optional tunnel star is easy to miss. → Add a visible shortcut hint and some stop variety.
+L22 (7/10): Another 'one tunnel, two sides, pick the bigger side' (L17, L21). → Make the sides equal in size but one has a better alternate path, so players compare route costs.
+L23 (7/10): 66% casual with a goal at 88% of riders is tight, and the decision is basically 'use both tunnels', which is easy to guess. → Add a decoy third crossing and loosen the goal slightly.
+L24 (7/10): The weekly card is not a real choice; both win. The 3rd star requires a non-obvious 'build nothing', which is subtle. → Make one card clearly better or turn the 3rd star into a visible 'spare track' goal.
+L26 (7/10): Fine but straightforward: read loads, pick the bigger line. → Make the two lines' loads close so the player has to compute seats.
+L28 (7/10): Carriage-on-the-line-to-the-stadium is nearly a copy of L22/L27. → Put the stadium on the near side and the quiet line across the tunnel so the carriage goes the other way.
+L33 (7/10): Same lesson as L5/L22 (follow the demand). The 12-cell empty lane wastes board. → Fold the lane into a shorter corridor and add a decoy busy stop.
+L34 (7/10): Third tunnel+carriage level (28, 34) with the same shape of answer. → Replace with a carriage-vs-line choice at a ferry-ready board or drop it.
+L36 (7/10): Single-line board with an obvious card pick (carriage). The other card is a visible dud, so no judgement. → Make +2 tracks tempting by adding a late station only it can reach.
+L38 (7/10): Same as L20 with a hill. → Make the quiet cottage a heritage-like must-serve to complicate it.
+L40 (7/10): Yet another 'carriage goes on the hard line' board; the 3-h corridor is mostly empty space. → Add a second climb choice.
+
+level-design score 7/10 — A strong, unusually well-documented set. Each level teaches one named idea and has a stated trap with a replayed proof. The calm framing (forecast rings, undo, restart from any week) is true to the doc. Most levels are solid. About 15 are real highlights: 4, 9, 29, 32, 39, 46, 51, 54, 62-style unequal-load levels, 70, 76, 81, 82, 98, 105, 111 and 112. The main problems are these:
+
+1. Repetition. The core aha 'split the long line / short lines run often' is the answer to about 40 levels (5, 10, 20, 33, 38, 41, 44, 45, 49, 52, 61-64, 101, 104 and others). Other repeated ideas are 'skip the silent stop' (8, 32, 76, 89, 90, 107) and 'give the heavy pair one line' (9, 20, 70, 103, 106, 112). Many later levels are the same puzzle in new terrain.
+2. Calm pillar versus failure. Heritage levels (109-120) say 'never full, not even once', and L119 says the run ends at once. That contradicts the 'never a surprise game over' positioning.
+3. Several 'weekly card' levels are not real choices. Both cards win (3, 4, 24, 36, 72, 78), so the pick is cosmetic.
+4. Difficulty hygiene. L21 is a very early reasoning spike (nearest-glyph) at 61% casual. L59 is an isolated 50% in the middle third. L62 and L88 have skilled barely above casual, so skill is not being rewarded. L115 is a 'breather' no easier than its neighbours.
+5. Many boss and finale traps are marked '?' (unverified), though the doc claims fairness.
+6. Maps are mostly tiny 5-9 stop grids with lots of 'dot' padding, and level shapes repeat (T, square, ring). Few boards feel like a place.
+7. Cities are unevenly sized. The first-third difficulty ramp is gentle, but L6, L9 and L21 jump.
+curve: Order is mostly sound: each chapter introduces one mechanic alone (carriage 25, hills 37, ferry 49, snow 61, interchange 73, market 74, loops 85, waves 97, heritage 109), then combines it, then ends in a boss, a breather and a mastery send-off. Chapter rhythm is good, and the 'twist after the lesson' beats (29, 39, 46, 51, 57, 75) are the best pacing moments.
+
+Weaknesses:
+- L1-L3 stack three teaching levels, and L3 adds the weekly card as a second concept.
+- Difficulty spikes early: L6 (81%), L9 (73%), L21 (61% casual with an obscure nearest-glyph rule), then L23.
+- The middle third has isolated lows (L59 at 50%).
+- The last third averages about 62% casual, which is on target. But the final 20 levels are almost all 47-60%, a plateau with little recovery. Breathers L103 and L115 barely relieve it.
+- Chapter openers after L60 often mix 2+ rules at once (snow + ferry in L64, hills + loops in L88/L95) before the second rule is solid.
+- From L40 on, 'trap = the intuitive long line' becomes predictable. Players can learn 'always split' and stop reading the board, so the aha fades. The set needs more levels where the right answer is NOT to split (46, 55, 92, 101 are the good examples), spread through the whole run.

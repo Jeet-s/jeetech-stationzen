@@ -1,0 +1,70 @@
+PASS level_intents: all 120 levels have a specific intent
+PASS no_filler_levels: no trivial filler levels after the tutorial
+FAIL level_design: level-design review 6.5/10 (bar 8), 10 level(s) below 6/10: The set is a coherent 120-level curriculum with clear per-level intents and consistent "trap" design. It is well above filler, but it is repetitive and some levels contradict their own text. The core repeated insight is "split the long line at the right stop and give the scarce resource (carriage, tunnel, interchange) to the right line". That is strong for the first 3-4 cities and wears thin by city 8.
+
+Weak spots:
+- A few levels are broken or contradictory: L12 (the stated goal and intent don't match the "3rd star: deliver every rider" claim), L16 and L40.
+- Some levels repeat earlier ones in disguise. Examples: L39 and L41 (hill line length), L26/L33/L40 (carriage placement), L79 against L9, and L102, L106 and L108 (loop plus busy pair).
+- Several late levels are single-fatal-choice puzzles.
+- Mastery send-offs sometimes add a new twist, which is not gentle.
+- A few levels have no real aha, only seat arithmetic.
+
+Overall score is 6.5/10. It is a solid mid-tier curriculum, not yet at Royal Match or Monument Valley polish. Curve: The set has a sound, readable structure. Cities of 8-12 levels each introduce one mechanic alone (tunnel, carriage, hill, ferry, snow, market, interchange, loop, wave, heritage). Each city then practises it, twists it, combines it, and ends with a boss and a send-off. Most levels have a single clear aha, and the "trap" is a believable human error.
+
+Problems with the pacing:
+1. One template repeats in every city. The aha is nearly always "don't build one long line; split it at the right stop", or "put the carriage or tunnel on the right line". Each level is then a different seat-count calculation. Players will learn the heuristic "short lines, split at the hub" by city 3, and the later twists mostly invert it. That makes the later cities repeat each other, and the finales don't feel new.
+2. Early levels are too thin. L1-L2 are almost trivial. L1 ends in a one-line, obvious plan. The tutorial levels L25, L37 and L49 also have a visible single answer.
+3. Late levels have very low casual win rates, often 47-58%. The targets allow this, but the Calm positioning ("never a surprise game over") is at odds with it. Several late levels are guess-the-single-decision puzzles with a hidden early fatal choice: L54, L78, L98, L105 and L107. That is a design-doc conflict, not just a difficulty setting.
+4. Breathers are uneven. Some are easier than their neighbours (L7, L19, L31, L43, L67). Others carry a "one-line star" that is harder than the main goal (L7, L31, L103). L55 and L79 aren't clearly easier than the levels around them.
+5. Late mechanics stack, and many levels combine three or more (L113, L118). That is a combine level with no isolated practice.
+6. Many numbers are off. Several levels have an arithmetic or goal mismatch in their text (see the per-level notes). The set needs a solver validation pass before launch.
+
+Verdict: the structure is professional and the intent is clear, but the variety of ideas is thin. It needs about 15 levels rewritten or merged.
+REDESIGN THESE LEVELS (keep the ones not listed):
+L12 (5/10): The text contradicts itself: the 3rd star 'deliver every rider' is 148 and the goal is 104, yet 'two tidy lines still win'. Optimal moves are beyond the search cap. It adds a new twist (a forced transfer) to a 'gentle send-off'. → Remove the new twist. Make it a recap of L4, L5 and L6 with a clear, solver-verified plan.
+L41 (5/10): A near-copy of L39, and a long detour rather than a puzzle. 75% casual with 89% skilled is OK. → Replace with a level where two hills conflict.
+L54 (5/10): Casual 60% and optimal moves beyond the search cap. Four cards and choices with a late station, and a hidden fatal move in week 3. → Cut a ferry and make the plan verifiable.
+L59 (5/10): 58% casual, 82% skilled, and optimal moves beyond the search cap. A carriage on the festival boat from the start is non-obvious, so a hidden early fatal move. → Reduce to two crossings.
+L62 (5/10): It combines a tunnel, a hill and snow in a 'Practise'. The tunnel shuttle is the only solution, and optimal moves are beyond the search cap with 62% casual. → Remove the hill.
+L78 (5/10): A forecast-reading puzzle that fails by week 3 if the week-2 card is wrong, a hidden fatal move. 56% casual, with an 11-move optimum. → Add a week-1 hint.
+L98 (5/10): A 12-move optimum and a card that is a trap for the future. A gotcha. → Show the second wave in the forecast.
+L102 (5/10): 47% casual, optimal moves beyond the search cap and a goal of 378 of 472. Too hard. → Lower the goal.
+L105 (5/10): A 12-move build-order puzzle with a hidden fatal move in week 1. → 
+L118 (5/10): Six mechanics, 54% casual, and a goal of 418 of 454 is very tight. → Remove the ferry.
+L3 (6/10): The trap is a hidden card choice, and the player can't tell it's wrong until week 4. The 'line card has no track' point is a gotcha, which breaks the 'never a surprise' pillar. → Show the card's map preview as 'no track for a 3rd line' when it is long-pressed, and add a spare track so the wrong pick still survives with fewer stars.
+L6 (6/10): It shares the 'split in two' answer with L3 and L5, so it isn't a leap. Optimal moves are beyond the solver's search cap, so it is unverified, and 79% casual is high for a boss. → Add a transfer constraint at the villages' link, and have the solver verify the plan before launch.
+L7 (6/10): The 3rd star is a long Hamiltonian path puzzle, which is harder than the 'relaxed' goal. The 10-stop single-line path is also a tedious drawing exercise. → Shrink to 8 stops, or make the one-line star a bonus with a hint of the path.
+L9 (6/10): The aha is weak. The plus shape practically forces two lines through the centre, and the trap is obvious. → Make C's demand lopsided toward one axis so that choosing which stops share a line matters.
+L11 (6/10): Optimal moves are beyond the search cap and the trap rate is unknown. The week-3 card text is a convoluted safety net that makes it feel like an exam, not a puzzle. → Drop the card and rely on the late station I. Verify the plan with the solver.
+L16 (6/10): The decision is a gotcha. The tunnel card looks right but is wrong because B is mid-line, so the player needs hidden knowledge of line ends. The 3rd star condition is confusing. → Show the line-end constraint on the card preview.
+L21 (6/10): It inverts L18 but is mechanically similar to L14. The land bridge is a visible decoy. → Add a late station behind the land bridge so the trap is not instantly legible.
+L23 (6/10): Casual win rate of 66% is low for a city-2 finale. The two-tunnel answer is the same as L21. → Make the festival's riders more visible and soften the goal.
+L26 (6/10): Load comparison is the whole puzzle and is straightforward. → Give the player a load meter and the busy line less obvious demand.
+L28 (6/10): Goal 166 of 210 but the trap description says 200 delivered. It is the same 'carriage on the line to the big stop' idea as L26 and L27. → Reconcile the numbers and give it a unique constraint.
+L30 (6/10): Casual win rate of 69% is low for a mid-city boss. It has two late stations and two tunnels and two carriages, so the player must plan for week 4 in week 1. → Show both late stations' forecasts, and drop one carriage.
+L32 (6/10): The wrong card is a gotcha, and optimal play takes 9 moves for a small board. → Add the card preview 'no track to reach G'.
+L34 (6/10): It stacks two scarce resources with a 70% casual rate and a 3rd star with 1 track to spare, so it is very tight. The solution is genuinely hard to find. → Remove the spare-track star or add a spare track.
+L36 (6/10): Not gentle. It has two late stations, a tunnel and a carriage, and its 3rd star is 'no amber'. → Drop one late station.
+L38 (6/10): A repeat of the carriage and tunnel logic ('put the slow part on the quiet line'). → Add a reason the climb line must stay unavoidable.
+
+level-design score 6.5/10 — The set is a coherent 120-level curriculum with clear per-level intents and consistent "trap" design. It is well above filler, but it is repetitive and some levels contradict their own text. The core repeated insight is "split the long line at the right stop and give the scarce resource (carriage, tunnel, interchange) to the right line". That is strong for the first 3-4 cities and wears thin by city 8.
+
+Weak spots:
+- A few levels are broken or contradictory: L12 (the stated goal and intent don't match the "3rd star: deliver every rider" claim), L16 and L40.
+- Some levels repeat earlier ones in disguise. Examples: L39 and L41 (hill line length), L26/L33/L40 (carriage placement), L79 against L9, and L102, L106 and L108 (loop plus busy pair).
+- Several late levels are single-fatal-choice puzzles.
+- Mastery send-offs sometimes add a new twist, which is not gentle.
+- A few levels have no real aha, only seat arithmetic.
+
+Overall score is 6.5/10. It is a solid mid-tier curriculum, not yet at Royal Match or Monument Valley polish.
+curve: The set has a sound, readable structure. Cities of 8-12 levels each introduce one mechanic alone (tunnel, carriage, hill, ferry, snow, market, interchange, loop, wave, heritage). Each city then practises it, twists it, combines it, and ends with a boss and a send-off. Most levels have a single clear aha, and the "trap" is a believable human error.
+
+Problems with the pacing:
+1. One template repeats in every city. The aha is nearly always "don't build one long line; split it at the right stop", or "put the carriage or tunnel on the right line". Each level is then a different seat-count calculation. Players will learn the heuristic "short lines, split at the hub" by city 3, and the later twists mostly invert it. That makes the later cities repeat each other, and the finales don't feel new.
+2. Early levels are too thin. L1-L2 are almost trivial. L1 ends in a one-line, obvious plan. The tutorial levels L25, L37 and L49 also have a visible single answer.
+3. Late levels have very low casual win rates, often 47-58%. The targets allow this, but the Calm positioning ("never a surprise game over") is at odds with it. Several late levels are guess-the-single-decision puzzles with a hidden early fatal choice: L54, L78, L98, L105 and L107. That is a design-doc conflict, not just a difficulty setting.
+4. Breathers are uneven. Some are easier than their neighbours (L7, L19, L31, L43, L67). Others carry a "one-line star" that is harder than the main goal (L7, L31, L103). L55 and L79 aren't clearly easier than the levels around them.
+5. Late mechanics stack, and many levels combine three or more (L113, L118). That is a combine level with no isolated practice.
+6. Many numbers are off. Several levels have an arithmetic or goal mismatch in their text (see the per-level notes). The set needs a solver validation pass before launch.
+
+Verdict: the structure is professional and the intent is clear, but the variety of ideas is thin. It needs about 15 levels rewritten or merged.

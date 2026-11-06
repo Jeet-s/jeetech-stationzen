@@ -1,7 +1,9 @@
-# JeeTech stationzen
+# Station Zen: Metro Builder
 
-Play package `com.jeetech.stationzen`. Built and maintained by the AI Game Factory.
+A calm metro builder: plan each week paused, draw lines, watch riders flow.
 
-- `docs/` — GitHub Pages: landing page, privacy policy, terms
-- `game/` — game source as shipped
-- `store/` — store listing + graphics
+- Google Play: https://play.google.com/store/apps/details?id=com.jeetech.stationzen
+- Privacy policy: https://jeet-s.github.io/jeetech-stationzen/privacy.html
+- Current version: 1.0.0
+
+`game/` is the Expo (React Native) source as shipped; `store/` holds the listing and graphics.

@@ -1,0 +1,16 @@
+{
+  "title": "Station Zen: Calm Metro Builder",
+  "package": "com.jeetech.stationzen",
+  "coreMechanic": "<![CDATA[30-second loop: stations appear on the map, passengers show a glyph (circle, triangle, square, and so on) for where they want to go. The player drags from a station to draw or extend a line, or drags a line end to redraw it. Trains carry passengers and the player watches the network flow. A soft overcrowd ring around a station fills as passengers pile up, and the player reroutes.
+Session loop (5-10 min): each in-game week brings new stations and a pick-one card (new line, train, carriage, tunnel, interchange, or a calm card). The player adapts the network. The run ends at a gentle failure, or when the star goals are met. A Heatmap Replay then shows where the network strained, with one suggestion tip.
+Meta loop: stars unlock cities, and city mastery unlocks line and train skins and a Station Garden diorama. Daily puzzle and streaks bring players back. Weekly rotating Ghost Rivals add competition.
+Calm design pillars:
+- Pause-and-plan is free and unlimited. Hold anywhere to freeze time, and drawing while frozen is allowed.
+- Undo is available for the last 3 edits, and also during a pause.
+- Overcrowding is never a surprise. It escalates through a soft yellow glow, an amber pulse and a gentle chime, then a 'Last Call' that gives the player time to act and offers a Breather (below). A run ends only after the ring has stayed full for a long grace window.
+- A run can be saved and resumed at any time, with no punishment for leaving.]]>",
+  "screens": ["Home (level map)", "Game", "Win", "Fail", "Shop", "Settings"],
+  "monetization": { "rewardedAds": true, "interstitials": true, "removeAdsIap": true },
+  "analyticsEvents": ["level_start", "level_complete", "level_fail"],
+  "_note": "Filled by the Claude Code builder from the GDD + asset manifest."
+}

@@ -1,0 +1,73 @@
+PASS level_intents: all 120 levels have a specific intent
+PASS no_filler_levels: no trivial filler levels after the tutorial
+FAIL level_design: level-design review 7.6/10 (bar 8), 0 level(s) below 6/10: This is a strong, unusually disciplined set. Each level has one stated aha, a named trap and a replayed proof. Mechanics come in one at a time across ten 12-level cities, and the trap rate is 0 wherever it was measured. Difficulty meets the studio targets. L1-3 are all at 80% casual or better, and the last third (L81-120) averages about 64% casual. There are no unwinnable spikes, and no breather is harder than the boss before it. Skilled rates stay between 77% and 100%.
+
+It falls short of Royal Match / Monument Valley level on variety and feel. Roughly half the levels are some form of "the tidy or obvious answer is the trap; split, skip or re-point it." After about L40 this reads as formula, and the trap is signalled by the level title or tag rather than discovered. The 12-level template is very regular: teach, practise, twist, boss, breather, mastery. That is predictable, and Ringvale to Meridian reuse earlier ideas heavily.
+
+Breathers repeat one another. L7, L43 and L67 are the same "draw one line with a forced dead-end start" puzzle. L19 and L55 are the same "optional crossing" board.
+
+Several late bosses stack 4-6 mechanics, and their trap descriptions are conjunctions of decisions. That conflicts with the calm, no-surprise pillar. Examples are L54, L59, L107 and L119. A few levels have data or board-clarity faults: L113 has a goal mismatch, L47 and L88 have confusing hill diagrams, and L62 has almost no gap between casual and skilled rates.
+
+Fix list in priority order:
+1. Reconcile L113's goal.
+2. Rework L62.
+3. Differentiate L7, L43 and L67.
+4. Slim down L54, L59, L107 and L119.
+5. Add more non-"split" aha types in L65-L120. Curve: Pacing is clean and legible. Each city introduces exactly one new mechanic alone: tunnels at L13, carriages at L25, hills at L37, ferries at L49, snow at L61, market days and interchanges at L73, loops at L85, waves at L97, heritage stops at L109. Each city then runs practise, twist, combine, boss, breather, mastery. Breathers land after bosses with casual rates of 79-93%. Mastery send-offs are gentle, and the final boss-to-finale step is a controlled spike (57% then 39%).
+
+Weaknesses:
+(1) Rigid 12-level cadence, so the player can predict where the twist and the boss are.
+(2) The core insight, "short lines run often, so split," recurs in nearly every city and becomes the default answer. Cities 6-10 mostly re-skin it with a new capacity source (carriage, snow, loop, wave). Few levels ask a different question, such as pure routing, nearest-glyph or what NOT to build. The best levels are exactly those: L32, L46, L76, L89, L17.
+(3) Cards (calm, interchange) are used from L11 and L16 before 'calm' is ever taught, and the later cards are often decorative because the wrong pick still wins and only costs a star (L83, L84).
+(4) Boss levels grow denser rather than deeper. L54, L59, L107 and L119 stack 4-6 mechanics, which strains the 'never a surprise' pillar.
+(5) Breather texture repeats: the single-line path puzzle (L7, L43, L67) and the optional crossing (L19, L55).
+(6) Dead-end sub-chains of 3-4 breathers per 12 levels keep the early-mid game comfortable, but L62-L70 has several near-60% levels in a row. Consider one more easy 'win' around L64-L66.
+REDESIGN THESE LEVELS (keep the ones not listed):
+L62 (6/10): Skilled 77% vs casual 73% means skill barely helps, so the solution is not discoverable; the 'usual Frostholm split' is assumed from just one prior level and has two valid answers. → Show the mill's load in the forecast at week 1, remove the second valid pair, and tune so the skilled rate reaches about 90%.
+L113 (6/10): Data mismatch: board says goal 305 but the aha/proof says goal 316; the label 'no wave, no carriage' is fine but the numbers cannot both be right. → Reconcile the goal figure and re-run the bot sweep; confirm the east ring plus open west line really loses.
+L7 (7/10): Same 'one line, dead-end must be an end' puzzle reappears as L43 and L67; the breather texture is repeated three times. → Keep L7 as the canonical version; rebuild L43 and L67 around different calm puzzles (e.g. choose which stop to omit, or nearest-glyph steering).
+L11 (7/10): The 'calm' card is used here without ever being introduced, and 'optimal moves > search cap / trap rate ?' undercuts a boss labelled verified fair. → Introduce calm as a risk-free pick in L3 or L4 (card options +1 line | calm), or swap L11's card to +1 line | +2 tracks, which the player already knows.
+L19 (7/10): 93% casual and 100% skilled with 7 tracks gives the shortcut no tension; same 'optional crossing' idea is re-run in L55. → Cut wk1 tracks to 6 so the tunnel shortcut is the only way to reach the 3rd star, and keep the cliff path as the generous path to a win.
+L21 (7/10): The twist is just the inverse of L18/L20 (tunnel vs land hops); there is no new question and the long vertical land bridge wastes board. → Add a late-opening stop that only one tunnel path serves, or make one tunnel clearly better so the player must weigh both, and compress the land bridge.
+L31 (7/10): Thin aha; 'one line with carriage' vs 'two lines' both trivially win, so the choice is cosmetic. → Give the 3rd star a small real puzzle, e.g. require one line that ends at E and A, so the loop-free kite shape must be walked in a specific order.
+L33 (7/10): Aha duplicates L26/L28 (put the carriage where the load is) and the board has a 12-row empty lane. → Put a stop in the lane or fold it; make the lantern lane compete with Main Street for the carriage with a clearer demand split.
+L40 (7/10): Three valid solutions and a muddled aha (climb with carriage, flat detour, trap); three lines allowed. → Remove spare track so only the carriage-on-the-climb plan or the flat detour exists, and drop the third line.
+L43 (7/10): Same one-line path puzzle as L7 and L67. → Replace the 3rd-star rule with a different small puzzle, e.g. choose which of two hill stops to skip.
+L47 (7/10): Two hill roads are drawn confusingly (steep D-hhh-G and F-h-G) and the aha needs a long paragraph; casual 66% / skilled 86% is the weakest skilled rate in the city. → Label the two climbs clearly, drop the carriage from the board, and make one visibly better.
+L48 (7/10): Billed gentle but casual is 72% and it has three lines and a card trap that hinges on route logic. → Lower the goal or add a tutorial hint so casual reaches about 80% like other send-offs.
+L54 (7/10): Trap is a conjunction of three choices (ferry growth, card, carriage) and the trap rate is unknown; 60% / 84% is harsh. → Reduce the trap to one decision and drop the carriage from the board.
+L55 (7/10): Clone of the L19 'optional crossing' breather. → Make the ferry necessary for the 3rd star only, or change the shape so the ferry shortens a transfer.
+L59 (7/10): Needs five mechanics and a carriage committed in week 1 for a week-4 event; casual 58%. → Drop the weekly card; keep the carriage on the boat as the single insight.
+L67 (7/10): Same one-line drawing puzzle as L7/L43. → Turn it into a snow-capacity puzzle: two lines, choose which to leave short.
+L74 (7/10): Effectively L3 again (split a long line to gain seats) with a demand spike; little new aha. → Make the spike land on a stop that cannot be isolated, so the solution is seat planning plus ordering of tracks.
+L83 (7/10): Wrong choices still win and only cost a star, so the boss has no real decision; 'fewest moves to win 11' is a lot of busywork. → Make the wrong carriage lose outright, or reduce the board so the call is the whole level.
+L84 (7/10): The wrong card costs only a star and the extra-line card is a trap that needs a specific follow-up. → Make the line card self-sufficient so both cards teach something.
+L88 (7/10): The hill rail B-h-D is drawn between B and D with E nested between, which is confusing, and skilled 79% is low. → Redraw E clearly off the square and name the hill rail; relax the goal by 5%.
+L91 (7/10): The choice of which way the pier line turns is a trivial aha; no mechanic is exercised. → Add a one-way rail or small loop opportunity as a spare-track puzzle.
+L103 (7/10): Transfer-design lesson is a rerun of L70/L79 in a lighter skin; the 3rd star is nearly automatic. → Add a spare-track decision or the wave forecast so the player must choose when to build.
+L107 (7/10): Stacks wave, snow, loop, carriage and a skipped corner; skilled 79%, trap rate unknown. → Drop the second line decision (the kiosk shuttle) and keep one loop plus carriage.
+L119 (7/10): 12 first moves and a rescue route that 'may not reach the goal' make the right plan fuzzy. → Make the rescue clearly winnable or remove it, and cut the choices at start to 7-8.
+
+level-design score 7.6/10 — This is a strong, unusually disciplined set. Each level has one stated aha, a named trap and a replayed proof. Mechanics come in one at a time across ten 12-level cities, and the trap rate is 0 wherever it was measured. Difficulty meets the studio targets. L1-3 are all at 80% casual or better, and the last third (L81-120) averages about 64% casual. There are no unwinnable spikes, and no breather is harder than the boss before it. Skilled rates stay between 77% and 100%.
+
+It falls short of Royal Match / Monument Valley level on variety and feel. Roughly half the levels are some form of "the tidy or obvious answer is the trap; split, skip or re-point it." After about L40 this reads as formula, and the trap is signalled by the level title or tag rather than discovered. The 12-level template is very regular: teach, practise, twist, boss, breather, mastery. That is predictable, and Ringvale to Meridian reuse earlier ideas heavily.
+
+Breathers repeat one another. L7, L43 and L67 are the same "draw one line with a forced dead-end start" puzzle. L19 and L55 are the same "optional crossing" board.
+
+Several late bosses stack 4-6 mechanics, and their trap descriptions are conjunctions of decisions. That conflicts with the calm, no-surprise pillar. Examples are L54, L59, L107 and L119. A few levels have data or board-clarity faults: L113 has a goal mismatch, L47 and L88 have confusing hill diagrams, and L62 has almost no gap between casual and skilled rates.
+
+Fix list in priority order:
+1. Reconcile L113's goal.
+2. Rework L62.
+3. Differentiate L7, L43 and L67.
+4. Slim down L54, L59, L107 and L119.
+5. Add more non-"split" aha types in L65-L120.
+curve: Pacing is clean and legible. Each city introduces exactly one new mechanic alone: tunnels at L13, carriages at L25, hills at L37, ferries at L49, snow at L61, market days and interchanges at L73, loops at L85, waves at L97, heritage stops at L109. Each city then runs practise, twist, combine, boss, breather, mastery. Breathers land after bosses with casual rates of 79-93%. Mastery send-offs are gentle, and the final boss-to-finale step is a controlled spike (57% then 39%).
+
+Weaknesses:
+(1) Rigid 12-level cadence, so the player can predict where the twist and the boss are.
+(2) The core insight, "short lines run often, so split," recurs in nearly every city and becomes the default answer. Cities 6-10 mostly re-skin it with a new capacity source (carriage, snow, loop, wave). Few levels ask a different question, such as pure routing, nearest-glyph or what NOT to build. The best levels are exactly those: L32, L46, L76, L89, L17.
+(3) Cards (calm, interchange) are used from L11 and L16 before 'calm' is ever taught, and the later cards are often decorative because the wrong pick still wins and only costs a star (L83, L84).
+(4) Boss levels grow denser rather than deeper. L54, L59, L107 and L119 stack 4-6 mechanics, which strains the 'never a surprise' pillar.
+(5) Breather texture repeats: the single-line path puzzle (L7, L43, L67) and the optional crossing (L19, L55).
+(6) Dead-end sub-chains of 3-4 breathers per 12 levels keep the early-mid game comfortable, but L62-L70 has several near-60% levels in a row. Consider one more easy 'win' around L64-L66.

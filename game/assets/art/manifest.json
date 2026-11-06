@@ -1,0 +1,161 @@
+{
+  "style": "Soft paper-craft diorama rendering meets Monument Valley's serene geometry and Royal Match's glossy premium polish. Everything reads as layered cut paper and matte clay: rounded chunky shapes, no hard black outlines, only gentle tonal edge shifts and a thin lighter rim-light on the top-left edge. Light is warm late-afternoon from the upper left, with soft ambient occlusion and feathered contact shadows (low-opacity indigo, never black) that give 2-4 px of stacked-paper depth. Map is a pastel top-down tabletop of rolling paper hills, rivers and parks with subtle paper grain and faint vignette; transit lines are thick, rounded, slightly satin ribbons with a soft highlight stripe and gentle drop shadow. Stations are cream enamel discs with slate rims and bold paper glyph tokens. Colour is harmonious and low-stress: dusty teal, sage, warm cream, apricot and lavender, with saturated line colours kept clean and distinct. Warnings glow in feathered yellow to amber halos, never red, never hard-edged. Mood: cosy, unhurried, tactile, like a bedtime toy train set. Shiny gold accents and soft bloom are reserved for rewards and heritage stations.",
+  "palette": [
+    "#2F4858",
+    "#5FB3A6",
+    "#F6EBD9",
+    "#F2A65A",
+    "#B8A5D9",
+    "#F7D56E"
+  ],
+  "ui_palette": {
+    "primary": "#5FB3A6",
+    "primaryDark": "#3C8478",
+    "secondary": "#B8A5D9",
+    "secondaryDark": "#8B76B8",
+    "accent": "#F2A65A",
+    "accentDark": "#C77D32",
+    "bgTop": "#E8F3EC",
+    "bgBottom": "#F6EBD9",
+    "ink": "#2F4858"
+  },
+  "assets": [
+    {
+      "id": "bg_city_meadow",
+      "kind": "background",
+      "file": "bg_city_meadow.png",
+      "usage": "Chapter 1 gameplay and home map background",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "bg_city_harbor",
+      "kind": "background",
+      "file": "bg_city_harbor.png",
+      "usage": "Chapter 2 background",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "bg_city_dusk",
+      "kind": "background",
+      "file": "bg_city_dusk.png",
+      "usage": "Chapter 3 and pause tint background",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "station_normal",
+      "kind": "sprite",
+      "file": "station_normal.png",
+      "usage": "Standard station marker",
+      "width": 501,
+      "height": 512
+    },
+    {
+      "id": "station_interchange",
+      "kind": "sprite",
+      "file": "station_interchange.png",
+      "usage": "Interchange station marker",
+      "width": 512,
+      "height": 407
+    },
+    {
+      "id": "station_heritage",
+      "kind": "sprite",
+      "file": "station_heritage.png",
+      "usage": "Heritage station marker",
+      "width": 439,
+      "height": 512
+    },
+    {
+      "id": "glyph_tokens",
+      "kind": "sprite",
+      "file": "glyph_tokens.png",
+      "usage": "Passenger demand glyph tokens",
+      "width": 512,
+      "height": 286
+    },
+    {
+      "id": "train_capsule",
+      "kind": "sprite",
+      "file": "train_capsule.png",
+      "usage": "Train on lines",
+      "width": 512,
+      "height": 432
+    },
+    {
+      "id": "passenger_pip",
+      "kind": "sprite",
+      "file": "passenger_pip.png",
+      "usage": "Waiting passenger",
+      "width": 328,
+      "height": 512
+    },
+    {
+      "id": "line_ribbon_tile",
+      "kind": "sprite",
+      "file": "line_ribbon_tile.png",
+      "usage": "Metro line segment tile",
+      "width": 512,
+      "height": 184
+    },
+    {
+      "id": "fx_overcrowd_glow",
+      "kind": "fx",
+      "file": "fx_overcrowd_glow.png",
+      "usage": "Overcrowd warning ring",
+      "width": 512,
+      "height": 493
+    },
+    {
+      "id": "fx_sparkle_confetti",
+      "kind": "fx",
+      "file": "fx_sparkle_confetti.png",
+      "usage": "Reward and star burst",
+      "width": 512,
+      "height": 453
+    },
+    {
+      "id": "hud_panel",
+      "kind": "ui",
+      "file": "hud_panel.png",
+      "usage": "Top HUD strip and popup card plate",
+      "width": 512,
+      "height": 434
+    },
+    {
+      "id": "button_primary",
+      "kind": "ui",
+      "file": "button_primary.png",
+      "usage": "Primary and secondary button plate",
+      "width": 512,
+      "height": 278
+    },
+    {
+      "id": "icon_star_reward",
+      "kind": "ui",
+      "file": "icon_star_reward.png",
+      "usage": "Star and reward icon",
+      "width": 512,
+      "height": 488
+    },
+    {
+      "id": "hero_pip_cat",
+      "kind": "character",
+      "file": "hero_pip_cat.png",
+      "usage": "Title screen hero key art",
+      "width": 470,
+      "height": 512
+    },
+    {
+      "id": "logo",
+      "kind": "ui",
+      "file": "logo.png",
+      "usage": "the game logo — title/home screen and anywhere the name appears",
+      "width": 900,
+      "height": 411
+    }
+  ],
+  "legacy": []
+}

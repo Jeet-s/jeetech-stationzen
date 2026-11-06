@@ -1,0 +1,25 @@
+import { readFileSync } from "fs";
+import { LEVELS } from "../../src/game/levels";
+import { mechanicsOf } from "../../src/game/describe";
+import { SOLUTIONS } from "../../src/game/solutions";
+const pt = JSON.parse(readFileSync(".agf/tmp/pt-base.out","utf8").trim().split("\n").pop()!).personas;
+const val = readFileSync(".agf/tmp/val-base.out","utf8").split("\n").filter(l=>/^L\d+ /.test(l)).map(l=>Number(/search (\d+)%/.exec(l)![1])/100);
+function stats(d:number[]){const n=d.length,k=Math.round(n*.2);const mean=(a:number[])=>a.reduce((x,y)=>x+y,0)/a.length;const idx=d.map((v,i)=>[v,i] as const).sort((x,y)=>x[0]-y[0]);const r=Array(n).fill(0);idx.forEach(([,i],p)=>r[i]=p);const dsq=r.reduce((a,y,i)=>a+(i-y)**2,0);return `ratio ${(mean(d.slice(n-k))/mean(d.slice(0,k))).toFixed(2)} rho ${(1-6*dsq/(n*(n*n-1))).toFixed(3)}`}
+const f=(g:(i:number)=>number)=>LEVELS.map((_,i)=>g(i));
+const cx=(i:number)=>Math.sqrt(mechanicsOf(LEVELS[i],true).length*(SOLUTIONS[String(i+1)]?.moves.length??1));
+const cas=(i:number)=>-Math.log(Math.max(0.01,pt.casual[i]));
+const ski=(i:number)=>-Math.log(Math.max(0.01,pt.skilled[i]));
+const srch=(i:number)=>-Math.log(Math.max(0.006,val[i]));
+console.log("current", stats(f(i=>cx(i)*(srch(i)+0.05))));
+console.log("cx*casual", stats(f(i=>cx(i)*(cas(i)+0.05))));
+console.log("cx*(casual+skilled+careless)", stats(f(i=>cx(i)*(cas(i)+ski(i)+0.05-Math.log(Math.max(.01,pt.careless[i]))))));
+console.log("cx*(casual+.5search)", stats(f(i=>cx(i)*(cas(i)+0.5*srch(i)+0.05))));
+console.log("cx*(casual+search)", stats(f(i=>cx(i)*(cas(i)+srch(i)+0.05))));
+const st=(i:number)=>LEVELS[i].stations.length, wk=(i:number)=>LEVELS[i].spec.weeks, me=(i:number)=>mechanicsOf(LEVELS[i],true).length, mv=(i:number)=>SOLUTIONS[String(i+1)]?.moves.length??1;
+console.log("mech*sqrt(moves)*cas", stats(f(i=>me(i)*Math.sqrt(mv(i))*(cas(i)+0.05))));
+console.log("sqrt(mech*moves*st)*cas", stats(f(i=>Math.sqrt(me(i)*mv(i)*st(i))*(cas(i)+0.05))));
+console.log("sqrt(mech*moves*st)*(cas+search)", stats(f(i=>Math.sqrt(me(i)*mv(i)*st(i))*(cas(i)+srch(i)+0.05))));
+console.log("mech*sqrt(moves*st)*(cas+.5search)", stats(f(i=>me(i)*Math.sqrt(mv(i)*st(i))*(cas(i)+.5*srch(i)+0.05))));
+console.log("mech*sqrt(moves)*(cas+.5search)", stats(f(i=>me(i)*Math.sqrt(mv(i))*(cas(i)+.5*srch(i)+0.05))));
+console.log("mech*(cas+.5search)+.2", stats(f(i=>me(i)*(cas(i)+.5*srch(i)+0.2))));
+for (const i of [0,6,12,18,30,42,54,66,78,90,102,114]) console.log(i+1, me(i), mv(i), st(i));

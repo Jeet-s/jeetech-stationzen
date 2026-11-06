@@ -1,0 +1,125 @@
+
+> game-runtime-rn@1.0.0 validate
+> tsx scripts/validate.ts
+
+L1 First Line               ok  proof 4 moves · search 91% · difficulty 0.49
+L2 Change Here              ok  proof 4 moves · search 81% · difficulty 1.03
+L3 Short Lines Run Often    ok  proof 7 moves · search 93% · difficulty 0.76
+L4 Construction Site        ok  proof 6 moves · search 86% · difficulty 1.08
+L5 Mill Spur                ok  proof 6 moves · search 85% · difficulty 1.16
+L6 Two Villages             ok  proof 9 moves · search 90% · difficulty 1.14
+L7 Willow Pond              ok  proof 10 moves · search 83% · difficulty 1.71
+L8 Morning Market           ok  proof 8 moves · search 89% · difficulty 1.07
+L9 Cross Streets            ok  proof 5 moves · search 65% · difficulty 2.40
+L10 Bakery Lane              ok  proof 7 moves · search 70% · difficulty 2.41
+L11 Harvest Festival         ok  proof 9 moves · search 75% · difficulty 2.68
+L12 Willowmere Mastery       ok  proof 11 moves · search 85% · difficulty 1.73
+L13 First Tunnel             ok  proof 5 moves · search 90% · difficulty 0.85
+L14 Three Piers              ok  proof 6 moves · search 73% · difficulty 2.23
+L15 Tunnel Shuttle           ok  proof 6 moves · search 70% · difficulty 2.44
+L16 Card Day                 ok  proof 8 moves · search 91% · difficulty 1.13
+L17 Island Hop               ok  proof 5 moves · search 66% · difficulty 2.53
+L18 Save the Tunnel          ok  proof 9 moves · search 73% · difficulty 2.95
+L19 Smugglers' Cove          ok  proof 7 moves · search 98% · difficulty 0.49
+L20 Night Market             ok  proof 5 moves · search 80% · difficulty 1.50
+L21 Spend Both               ok  proof 8 moves · search 83% · difficulty 1.68
+L22 Lighthouse Rock          ok  proof 8 moves · search 73% · difficulty 2.78
+L23 Harbour Lights Festival  ok  proof 7 moves · search 63% · difficulty 3.37
+L24 Harbour Mastery          ok  proof 10 moves · search 90% · difficulty 1.30
+L25 First Carriage           ok  proof 6 moves · search 90% · difficulty 0.85
+L26 Kite Street              ok  proof 8 moves · search 84% · difficulty 1.58
+L27 Stadium Transfer         ok  proof 7 moves · search 71% · difficulty 2.72
+L28 Cup Tie                  ok  proof 8 moves · search 76% · difficulty 2.40
+L29 Brookside                ok  proof 8 moves · search 85% · difficulty 1.59
+L30 Derby Day                ok  proof 10 moves · search 75% · difficulty 3.02
+L31 Kite Hill                ok  proof 6 moves · search 93% · difficulty 0.77
+L32 Keep One Back            ok  proof 8 moves · search 89% · difficulty 1.17
+L33 Lantern Lane             ok  proof 8 moves · search 68% · difficulty 3.07
+L34 Away End                 ok  proof 8 moves · search 63% · difficulty 3.89
+L35 Cup Final                ok  proof 12 moves · search 79% · difficulty 2.65
+L36 Kitebrook Mastery        ok  proof 9 moves · search 81% · difficulty 1.89
+L37 First Climb              ok  proof 4 moves · search 74% · difficulty 1.59
+L38 Ridge Road               ok  proof 6 moves · search 81% · difficulty 1.55
+L39 Over the Top             ok  proof 7 moves · search 84% · difficulty 1.34
+L40 Hilltop Stand            ok  proof 7 moves · search 89% · difficulty 1.19
+L41 Long Way Round           ok  proof 5 moves · search 69% · difficulty 2.12
+L42 Harvest Fair             ok  proof 9 moves · search 76% · difficulty 2.73
+L43 Amber Lanterns           ok  proof 10 moves · search 98% · difficulty 0.58
+L44 Toll Road                ok  proof 8 moves · search 61% · difficulty 4.04
+L45 Two Keys                 ok  proof 6 moves · search 65% · difficulty 2.88
+L46 Leave the Old Road       ok  proof 7 moves · search 64% · difficulty 3.24
+L47 Amberhill Festival       ok  proof 8 moves · search 59% · difficulty 4.66
+L48 Amberhill Mastery        ok  proof 11 moves · search 71% · difficulty 3.87
+L49 Ferry Crossing           ok  proof 4 moves · search 74% · difficulty 1.74
+L50 Keep a Line              ok  proof 6 moves · search 63% · difficulty 3.37
+L51 Two Boats                ok  proof 7 moves · search 69% · difficulty 2.75
+L52 River or Sea             ok  proof 6 moves · search 70% · difficulty 2.64
+L53 Double Boat              ok  proof 7 moves · search 55% · difficulty 4.53
+L54 Lotus Market             ok  proof 10 moves · search 70% · difficulty 3.86
+L55 Lotus Lagoon             ok  proof 9 moves · search 89% · difficulty 1.24
+L56 Ridge or Ripple          ok  proof 6 moves · search 74% · difficulty 2.30
+L57 Wrong Pier               ok  proof 6 moves · search 83% · difficulty 1.45
+L58 Sea or River             ok  proof 7 moves · search 84% · difficulty 1.70
+L59 Lantern Regatta          ok  proof 11 moves · search 48% · difficulty 8.33
+L60 Delta Mastery            ok  proof 7 moves · search 78% · difficulty 2.13
+L61 First Snow               ok  proof 7 moves · search 88% · difficulty 1.19
+L62 The Sawmill              ok  proof 7 moves · search 69% · difficulty 2.75
+L63 Snowbound Junction       ok  proof 6 moves · search 69% · difficulty 2.55
+L64 Frozen Ferry             ok  proof 6 moves · search 59% · difficulty 3.77
+L65 Two Storms               ok  proof 10 moves · search 71% · difficulty 3.25
+L66 Blizzard Pass            ok  proof 9 moves · search 60% · difficulty 4.45
+L67 Frost Garden             ok  proof 9 moves · search 88% · difficulty 1.23
+L68 Carriage for the Storm   ok  proof 7 moves · search 75% · difficulty 2.53
+L69 Storm Opening            ok  proof 9 moves · search 61% · difficulty 4.58
+L70 Two Huts                 ok  proof 9 moves · search 55% · difficulty 4.76
+L71 Midwinter Festival       ok  proof 8 moves · search 51% · difficulty 5.38
+L72 Frostholm Mastery        ok  proof 10 moves · search 76% · difficulty 3.05
+L73 Waiting Room             ok  proof 6 moves · search 88% · difficulty 1.10
+L74 Market Day               ok  proof 6 moves · search 81% · difficulty 1.55
+L75 The Patient Interchange  ok  proof 5 moves · search 74% · difficulty 1.77
+L76 The Corner Kiosk         ok  proof 8 moves · search 57% · difficulty 4.18
+L77 Two Markets              ok  proof 9 moves · search 64% · difficulty 3.68
+L78 Bazaar Gate              ok  proof 11 moves · search 70% · difficulty 3.30
+L79 Spice Square             ok  proof 7 moves · search 86% · difficulty 1.39
+L80 Seats or Space           ok  proof 9 moves · search 68% · difficulty 3.26
+L81 The Waiting Stall        ok  proof 9 moves · search 68% · difficulty 3.76
+L82 One Loud Night           ok  proof 8 moves · search 76% · difficulty 2.57
+L83 Lantern Night Bazaar     ok  proof 12 moves · search 60% · difficulty 5.49
+L84 Sunbazaar Mastery        ok  proof 11 moves · search 75% · difficulty 2.96
+L85 Close the Ring           ok  proof 7 moves · search 83% · difficulty 1.43
+L86 The Spur                 ok  proof 8 moves · search 83% · difficulty 1.68
+L87 One Way Round            ok  proof 7 moves · search 83% · difficulty 1.57
+L88 Leave a Gap              ok  proof 7 moves · search 78% · difficulty 2.13
+L89 The Short Ring           ok  proof 8 moves · search 48% · difficulty 5.50
+L90 Ring Road Fair           ok  proof 9 moves · search 55% · difficulty 5.14
+L91 Lantern Pier             ok  proof 7 moves · search 88% · difficulty 1.09
+L92 Ferry Ring               ok  proof 10 moves · search 61% · difficulty 4.52
+L93 Opposite Arrows          ok  proof 9 moves · search 49% · difficulty 6.10
+L94 Ring on a Budget         ok  proof 7 moves · search 68% · difficulty 2.62
+L95 Ring Line Festival       ok  proof 8 moves · search 56% · difficulty 5.00
+L96 Ringvale Mastery         ok  proof 10 moves · search 61% · difficulty 4.83
+L97 First Wave               ok  proof 7 moves · search 90% · difficulty 1.01
+L98 Save It for the Second Wave ok  proof 12 moves · search 45% · difficulty 8.31
+L99 Opening Day Rush         ok  proof 10 moves · search 68% · difficulty 3.96
+L100 Two Triangles            ok  proof 9 moves · search 54% · difficulty 5.32
+L101 Two Halves               ok  proof 7 moves · search 49% · difficulty 5.38
+L102 Neon Night Market        ok  proof 14 moves · search 43% · difficulty 9.58
+L103 Lantern Market           ok  proof 8 moves · search 74% · difficulty 2.46
+L104 Ferry at Rush Hour       ok  proof 10 moves · search 48% · difficulty 7.11
+L105 Wave Before the Tracks   ok  proof 12 moves · search 64% · difficulty 4.58
+L106 Over the Hill            ok  proof 10 moves · search 53% · difficulty 6.21
+L107 Neon Rush Festival       ok  proof 12 moves · search 44% · difficulty 9.11
+L108 Neon Quay Mastery        ok  proof 9 moves · search 83% · difficulty 1.92
+L109 The Old Station          ok  proof 5 moves · search 89% · difficulty 0.93
+L110 Two Old Gates            ok  proof 7 moves · search 48% · difficulty 5.56
+L111 The Reopened Hall        ok  proof 10 moves · search 63% · difficulty 4.65
+L112 The Twin Halls           ok  proof 6 moves · search 56% · difficulty 3.75
+L113 One Tunnel, Two Rings    ok  proof 7 moves · search 50% · difficulty 5.56
+L114 Meridian Shield          ok  proof 8 moves · search 60% · difficulty 4.49
+L115 Meridian Gardens         ok  proof 9 moves · search 85% · difficulty 1.69
+L116 The Arcade Gate          ok  proof 7 moves · search 57% · difficulty 4.22
+L117 The Island Abbey         ok  proof 8 moves · search 70% · difficulty 3.45
+L118 Two Tunnels and a Ferry  ok  proof 7 moves · search 46% · difficulty 5.75
+L119 Meridian Festival        ok  proof 7 moves · search 63% · difficulty 3.89
+L120 Grand Meridian           ok  proof 13 moves · search 30% · difficulty 14.30
+{"levels":120,"solvable":120,"difficulty":[0.49,1.031,0.757,1.084,1.164,1.142,1.714,1.071,2.404,2.406,2.68,1.727,0.851,2.23,2.44,1.133,2.529,2.949,0.488,1.496,1.679,2.781,3.37,1.3,0.851,1.575,2.723,2.403,1.59,3.02,0.768,1.173,3.069,3.891,2.648,1.893,1.585,1.546,1.345,1.185,2.123,2.725,0.583,4.043,2.885,3.242,4.655,3.87,1.737,3.37,2.752,2.636,4.535,3.858,1.244,2.297,1.454,1.701,8.332,2.134,1.189,2.752,2.548,3.771,3.254,4.451,1.231,2.527,4.584,4.761,5.376,3.047,1.101,1.546,1.772,4.18,3.676,3.304,1.385,3.256,3.759,2.569,5.495,2.963,1.434,1.679,1.571,2.134,5.504,5.142,1.086,4.52,6.1,2.621,5.003,4.832,1.007,8.314,3.963,5.325,5.379,9.585,2.456,7.106,4.584,6.211,9.111,1.924,0.928,5.561,4.651,3.752,5.561,4.487,1.687,4.224,3.451,5.748,3.891,14.297]}

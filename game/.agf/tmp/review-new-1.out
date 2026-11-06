@@ -1,0 +1,68 @@
+PASS level_intents: all 120 levels have a specific intent
+PASS no_filler_levels: no trivial filler levels after the tutorial
+FAIL level_design: level-design review 7.6/10 (bar 8), 0 level(s) below 6/10: This is a coherent, well-documented set. Nearly every level has one readable idea, a proven intended plan and a named trap. That is rare, and it is close to Monument Valley's clarity of purpose. The 12-level city structure works: teach, practise, combine, boss, breather, mastery. Breathers consistently follow bosses and are easier than their neighbours. The late-game casual average comes in around 60%, inside the ≤65% target. Three problems keep it below the best in the genre.
+
+1. Repetition. The same few aha moments are reskinned across cities. 'Split the long line' runs through all ten cities. 'Leave the silent or pretty stop unbuilt' recurs at L17, L32, L43, L46, L76, L89, L90, L94, L107 and L120. The 'heavy pair shares a line' idea recurs at L9, L70, L79, L106 and L112. The 'ferry or carriage on the capped line' idea recurs at L53, L92, L104 and L117. A few levels are near-clones: L79 repeats L9, L107 repeats L89, L104 repeats L92, L117 repeats L53, L67 repeats L36, and L43 repeats L7. Nearly every level is 'avoid the one tempting wrong layout', so the set has little variety in what the player has to do.
+2. Data and spec inconsistencies. These need fixing before launch:
+   - L5 and L10 have track counts that do not fit their intended plans, so the spare-track stars look unreachable.
+   - L40's proof earns only 2 stars while its 3rd star is described as reachable.
+   - L66's one week-3 track appears to cover a 2-hop road.
+   - L73 says the track arrives in week 4 in one place and week 5 in another.
+   - L88's loop is called 6 hops but is 5 stops.
+   - L5's 'Why' text is truncated.
+3. Verification and tone. Trap rate is 0 on every measured level, which makes the metric useless as a fairness signal, and it is '?' on all the search-cap bosses. The late game (L100-L120) has several casual rates near 47-50% in a row. That clashes with a 'gentlest metro builder' promise, even though the studio target allows it. L120 is the hardest level in the set at 44% casual. It is billed as a 'calm, readable' send-off, and it does not recap hills, ferries, snow or interchanges. Curve: Structure: ten 12-level cities, each introducing one mechanic. They run base, tunnels, carriages, hills, ferries, snow, interchange and market, loops, waves, then heritage. Within each city the pattern is teach, practise, combine and twist, then a boss, a breather, and a mastery send-off. This is predictable in a good way. Breathers always follow bosses and are easier than their neighbours (L19 93%, L31 92%, L43 91%, L55 93%, L67 91%, L79 79%, L91 91%, L103 79%, L115 89%). No run of three or more levels reaches 90% casual after L5. Levels 1-3 clear the 80% floor (88/87/97).
+
+Problems:
+1. The first city is too easy at its end. Boss L11 is 88% casual and 100% skilled, easier than L9 (73%) and L10 (75%). It should be the city's peak.
+2. Mechanic introduction slows down. Tunnels arrive at L13 and carriages at L25, but loops arrive only at L85 and waves at L97. After L85 almost every level is a combination, so the player learns two or three rules in a row with little room to digest them.
+3. The late-game ramp is a plateau, not a climb. Many levels sit at 47-57% casual (L90, L92-L95, L100, L102, L104-L106, L110, L112, L118, L120), with only L103 and L115 relieving it. Add one more breather mid-city in cities 9 and 10.
+4. Mastery send-offs drift harder. Casual rates go 93% (L24), 83% (L36), 79% (L48, L60, L72), 76% (L84), 65% (L96, L108), 44% (L120). Make L96 and L108 gentler, because they are meant to be send-offs.
+5. The cadence of 'one tempting wrong answer, one right answer' becomes obvious by about L40. Vary the formula in cities 7-10. Examples: no trap with several valid answers, a score-optimisation level, or a level where the 'tempting' move is correct.
+6. Introduce the 'leave it unbuilt' lesson once, well, and then stop reusing it as the main aha.
+REDESIGN THESE LEVELS (keep the ones not listed):
+L10 (6/10): Track maths looks off. The plan needs 5+4 = 9 tracks against 8 given, so '2 tracks to spare' is impossible. The 5-hop west line on a 3-vs-2 corridor layout is hard to read. → Recount the tracks (give +9 or shorten a corridor) and fix the 3rd-star condition.
+L40 (6/10): The proof shows only 2 stars, yet the 3rd-star track-in-hand plan is described as the elegant answer. There are three lines but only 5 tracks. → Rebuild the plan so the elegant answer earns 3 stars, or fix the star condition. Check the track budget.
+L43 (6/10): Same drawing puzzle as L7 with a hill added. → Replace it with a different breather, such as a free-form garden where any layout wins and the 3rd star is a design goal.
+L67 (6/10): Near-duplicate of L36: one line, a carriage card against a weak card. Its 3rd star hinges on timing the card, not on a real puzzle. → Replace it with a breather with no card, or change the frame (e.g. a snow-weeks drawing puzzle).
+L73 (6/10): The interchange is pre-placed, so the player never builds one. The spec is inconsistent: the Aha says the track arrives in week 4 and the trap says week 5. → Fix the week. Let the player upgrade it, for example by giving E a single-ring that fills until upgraded.
+L79 (6/10): Same aha as L9 (plus shape, bend the lines through the centre so the heavy pairs don't change). The interchange mechanic is barely used. → Replace it with a real interchange breather, e.g. a plus where the interchange upgrade is what removes the queue.
+L88 (6/10): Reuses L4's free-end idea. The loop is called 6 hops but spans 5 stops. → Fix the hop count, and replace the 'keep a free end' aha with a loop-specific one.
+L94 (6/10): The aha is a repeat of L89/L85: skip the silent spur and close the ring. → Make a stop that sends a few riders the one to leave out, so the player must count.
+L104 (6/10): Same aha as L92: don't put the ferry in the loop. The stated 244 total riders vs goal 171 is a mild mismatch with the 238 delivered. → Replace the aha, for example by making the ferry spur the only sensible option and the question one of timing.
+L107 (6/10): Nearly a copy of L89 (3x3 grid, skip the silent corner kiosks, close the inner ring, add the carriage), plus a snow week. → Replace the board or make the quiet stops carry a little demand, so skipping is a trade-off.
+L117 (6/10): Same aha as L53 (carriage on the ferry line). The only newness is the heritage ring. → Replace it with a heritage island where a tunnel is the right answer instead.
+L2 (7/10): The trap is just 'forget stop D', so the aha is thin. The single line visibly loses, but there is no tempting wrong choice. → Give the A-B-C road heavy demand so one line looks nearly enough, and make the D riders the missing 12.
+L5 (7/10): The 3rd star 'finish with 2 tracks to spare' appears impossible: the intended plan uses all 7 tracks. The 'Why' text is truncated. → Fix the spare-track count (add 2 tracks or drop the star condition), and finish the Why text.
+L7 (7/10): The aha is a pure path-drawing puzzle with no capacity tension. It is also the template L43 reuses. → Keep it as the one path puzzle, and give L43 a different breather idea.
+L8 (7/10): The path is nearly forced. Skipping the zero-demand B is the only decision, and the same trick returns many times later. → Give B small demand so skipping costs something, or make a non-skipping route also viable at a price.
+L11 (7/10): The boss is easier than the levels before it (88% casual, 100% skilled vs 73% and 75% on L9 and L10). The card safety net removes the sting. → Raise the goal to about 190 and drop the safety net, or add an east-side demand spike so both plans are tested.
+L19 (7/10): At 93% casual with an optional tunnel, the aha is weak and it nearly repeats L7's 'any network wins' texture. → Make the shortcut a visible, tempting win, such as a one-click 'see the saving' preview.
+L22 (7/10): The aha 'a hub everyone wants should be the end of several lines' is the same one L35 and L71 reuse. → Keep it here, and give L35 a different aha.
+L24 (7/10): Both cards win and casual is 93%, so the level tests very little. → Make +1 tunnel clearly costly, for example by spending a track needed for the 3rd star, so the read matters.
+L25 (7/10): The player just adds a carriage, which is mechanical. → Fine as a teach level, but add a second sink for the carriage so the choice is visible.
+L31 (7/10): Two valid answers and a 92% casual win rate make this pleasant but forgettable. → Add a small drawing twist, such as the kite loop making the one-line star harder to see.
+L35 (7/10): Same shape as L22 (both lines end at the late hub) with carriages added. → Break the symmetry: make the two halves unequal so only one line needs the carriage.
+L36 (7/10): A single obvious card pick makes this thin. L67 repeats it. → Make the other card a real trade-off, for example one that rescues a stop the carriage cannot.
+L37 (7/10): Simple but fine. The hill only costs a hop. → Add a one-line preview of the seat count to sharpen the hop lesson.
+L41 (7/10): The hill hop count is confusing (5 hops for a 3-h climb), and the single-line choice is nearly forced. → Clarify the hop maths on the board and add a second viable route to decide between.
+
+level-design score 7.6/10 — This is a coherent, well-documented set. Nearly every level has one readable idea, a proven intended plan and a named trap. That is rare, and it is close to Monument Valley's clarity of purpose. The 12-level city structure works: teach, practise, combine, boss, breather, mastery. Breathers consistently follow bosses and are easier than their neighbours. The late-game casual average comes in around 60%, inside the ≤65% target. Three problems keep it below the best in the genre.
+
+1. Repetition. The same few aha moments are reskinned across cities. 'Split the long line' runs through all ten cities. 'Leave the silent or pretty stop unbuilt' recurs at L17, L32, L43, L46, L76, L89, L90, L94, L107 and L120. The 'heavy pair shares a line' idea recurs at L9, L70, L79, L106 and L112. The 'ferry or carriage on the capped line' idea recurs at L53, L92, L104 and L117. A few levels are near-clones: L79 repeats L9, L107 repeats L89, L104 repeats L92, L117 repeats L53, L67 repeats L36, and L43 repeats L7. Nearly every level is 'avoid the one tempting wrong layout', so the set has little variety in what the player has to do.
+2. Data and spec inconsistencies. These need fixing before launch:
+   - L5 and L10 have track counts that do not fit their intended plans, so the spare-track stars look unreachable.
+   - L40's proof earns only 2 stars while its 3rd star is described as reachable.
+   - L66's one week-3 track appears to cover a 2-hop road.
+   - L73 says the track arrives in week 4 in one place and week 5 in another.
+   - L88's loop is called 6 hops but is 5 stops.
+   - L5's 'Why' text is truncated.
+3. Verification and tone. Trap rate is 0 on every measured level, which makes the metric useless as a fairness signal, and it is '?' on all the search-cap bosses. The late game (L100-L120) has several casual rates near 47-50% in a row. That clashes with a 'gentlest metro builder' promise, even though the studio target allows it. L120 is the hardest level in the set at 44% casual. It is billed as a 'calm, readable' send-off, and it does not recap hills, ferries, snow or interchanges.
+curve: Structure: ten 12-level cities, each introducing one mechanic. They run base, tunnels, carriages, hills, ferries, snow, interchange and market, loops, waves, then heritage. Within each city the pattern is teach, practise, combine and twist, then a boss, a breather, and a mastery send-off. This is predictable in a good way. Breathers always follow bosses and are easier than their neighbours (L19 93%, L31 92%, L43 91%, L55 93%, L67 91%, L79 79%, L91 91%, L103 79%, L115 89%). No run of three or more levels reaches 90% casual after L5. Levels 1-3 clear the 80% floor (88/87/97).
+
+Problems:
+1. The first city is too easy at its end. Boss L11 is 88% casual and 100% skilled, easier than L9 (73%) and L10 (75%). It should be the city's peak.
+2. Mechanic introduction slows down. Tunnels arrive at L13 and carriages at L25, but loops arrive only at L85 and waves at L97. After L85 almost every level is a combination, so the player learns two or three rules in a row with little room to digest them.
+3. The late-game ramp is a plateau, not a climb. Many levels sit at 47-57% casual (L90, L92-L95, L100, L102, L104-L106, L110, L112, L118, L120), with only L103 and L115 relieving it. Add one more breather mid-city in cities 9 and 10.
+4. Mastery send-offs drift harder. Casual rates go 93% (L24), 83% (L36), 79% (L48, L60, L72), 76% (L84), 65% (L96, L108), 44% (L120). Make L96 and L108 gentler, because they are meant to be send-offs.
+5. The cadence of 'one tempting wrong answer, one right answer' becomes obvious by about L40. Vary the formula in cities 7-10. Examples: no trap with several valid answers, a score-optimisation level, or a level where the 'tempting' move is correct.
+6. Introduce the 'leave it unbuilt' lesson once, well, and then stop reusing it as the main aha.

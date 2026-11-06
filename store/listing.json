@@ -1,0 +1,37 @@
+{
+  "aso": {
+    "primary": "metro builder",
+    "problems": [
+      "full_description uses the primary keyword \"metro builder\" only 1× (aim for 3–5, naturally)"
+    ],
+    "secondary": [
+      "metro game",
+      "strategy games",
+      "relaxing puzzle game"
+    ]
+  },
+  "title": "Station Zen: Metro Builder",
+  "category": "Puzzle",
+  "keywords": [
+    "metro builder",
+    "metro game",
+    "relaxing puzzle game",
+    "strategy games",
+    "metro building game",
+    "build a metro network",
+    "calm puzzle game",
+    "train line puzzle"
+  ],
+  "release_notes": "First release of Station Zen: 120 handcrafted levels in 10 cities, a Station Garden to decorate, a Daily Puzzle with streaks, and live online Duels and private rooms with an AI fallback.",
+  "content_rating": "Everyone",
+  "full_description": "Station Zen is a calm metro builder where you draw rail lines, plan at your own pace and watch passengers travel to the stop they want.\n\nEvery week starts paused. Take as long as you like to lay out your lines, change your mind, then press play and see how your network flows.\n\nA GENTLE WAY TO PLAY\nLooking for a relaxing puzzle game with real thinking behind it? Station Zen is built around soft pressure, not panic.\n• Draw metro lines along rail corridors. Passengers ride to the station that shows the glyph they want, and change lines at shared stations.\n• Undo your last 3 edits of the week if a plan doesn't work out.\n• Crowding is never a surprise. Station rings turn yellow, then amber, then a \"Last Call\" warns you in good time. A run ends only if a station stays full for 2 weeks in a row.\n• Restart a level or ask for a hint whenever you like.\n\n120 HANDCRAFTED LEVELS IN 10 CITIES\nTravel through ten paper-craft cities, from cosy Willowmere to Grand Meridian. Each level is a handcrafted puzzle with a star rating, and new ideas arrive step by step as the cities change. Power-ups such as freeze can help in a tight spot.\n\nCOLLECT AND DECORATE\n• Station Garden: decorate a paper diorama island with 12 pieces, bought with Tokens and unlocked by the stars you earn.\n• City Mastery skins to restyle your lines and trains.\n• Passenger Journal to collect the little characters you meet.\n• Cosmetic themes you can buy with in-game currency.\n\nCOME BACK EVERY DAY\n• A Daily Puzzle with streaks to keep going.\n• A Season Pass with a free track.\n• Leaderboards to compare your best networks.\n\nPLAY WITH FRIENDS\nChallenge other players in live online Duels, or invite friends into a private room and compare networks in real time. If no opponent is found, an AI rival steps in. Single-player works offline, and there is no account or login: your progress is stored on your device.\n\nFans of thoughtful strategy games will find plenty to master, while newcomers can settle in gently. It is a metro game you can enjoy in short breaks or long evenings, with sound and haptics settings to suit you.\n\nAds are light, and you choose any rewarded video for a hint, revive or free coins. A Remove Ads purchase turns off interstitials and banners.\n\nOpen Station Zen, plan it slowly, and watch it flow.",
+  "screenshots_plan": [
+    "Plan each week while paused",
+    "Draw lines, watch passengers flow",
+    "Gentle warnings, never a surprise",
+    "120 levels across 10 cities",
+    "Decorate your Station Garden",
+    "Duel friends in live rooms"
+  ],
+  "short_description": "A calm metro builder: plan each week paused, draw lines, watch riders flow."
+}

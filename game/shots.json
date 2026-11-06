@@ -1,0 +1,29 @@
+{
+  "_note": "Store screenshot scenes. Each id is opened with <scheme>://shot/<id> and captured on an emulator (src/screenshots.tsx renders the real screens in a real state). The 'home' scene (title screen) is required and judged.",
+  "scenes": [
+    {
+      "id": "home",
+      "caption": "A calm metro builder"
+    },
+    {
+      "id": "solve",
+      "caption": "Draw lines, watch trains flow"
+    },
+    {
+      "id": "plan",
+      "caption": "Pause, plan, never surprised"
+    },
+    {
+      "id": "win",
+      "caption": "Earn stars in every city"
+    },
+    {
+      "id": "map",
+      "caption": "120 levels, 10 cozy cities"
+    },
+    {
+      "id": "garden",
+      "caption": "Decorate your cozy Station Garden"
+    }
+  ]
+}

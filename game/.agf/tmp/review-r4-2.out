@@ -1,0 +1,50 @@
+PASS level_intents: all 120 levels have a specific intent
+PASS no_filler_levels: no trivial filler levels after the tutorial
+FAIL level_design: level-design review 7/10 (bar 8), 0 level(s) below 6/10: This is a thoughtful, fair-looking set with a clean teach, practise, twist, boss, breather rhythm in each city. It has a good set of "leave it unbuilt" and "read the forecast" ahas. Its weaknesses are heavy aha repetition ("split the snake, keep an end for the late stop"), many levels that are the same puzzle in new clothing, and several late spikes (L102, L110, L112, L120) with skilled win rates in the low 80s or below. It is solid, not yet Royal Match/Monument Valley tier. I rated only the levels I judged to be below 8 or to need a note. The rest are unlisted and I'd treat them as 8 or above. Curve: Strong, well-sequenced campaign. Mechanics are introduced one per city (lines, tunnels, carriages, hills, ferries, snow, markets/interchanges, loops, waves, heritage). Each city runs teach, practise, combine, twist, boss, breather, send-off, and the breathers land after bosses. Problems:
+1) Repetition. Nearly every level has the same aha, "split the long line into short ones and keep a free end for the late station", and the same trap, "one long snake". About 40% of levels are reskins with a different hazard word. Tunnels, hills and ferries all say "put the slow thing on the quiet line".
+2) The aha type is too uniform. The "what to leave unbuilt" idea (L32, L46, L50, L75) and the "forecast reading" idea are the freshest, and each appears only a few times.
+3) Difficulty. The late third averages roughly 55-65% casual, which is on target. Several finales sit at 47-55% casual with skilled at 67-83% (L102, L110, L112, L120). L120 at 55/67 is a spike for a gentle send-off. L90 and L102 are close to the edge.
+4) Some mid-game levels have no trap hidden in them. L19, L55, L79, L103 and L115 are real breathers. L37, L61 and L63 are fine.
+5) Too many levels hinge on one fixed number: "27 vs 36 seats". Players will learn to count hops and ignore the board.
+6) Easy-streak risk. L19 is 93%, L31 is 92% and L37 is 93%, but they are separated. L7 and L13 are ≥ 87% and 90%, and L1-L4 are all easy by design.
+7) The campaign is too long at 120 levels for one idea per level. Cut about 25 filler levels or merge them.
+8) Boards are mostly small grids with little visual identity. Monument Valley-level spatial surprise is absent.
+9) The mechanic-stacking in the last 25 levels (L99-L120) is fine. The boss levels L107 and L119 stack three rules, which is more than one idea and verges on a quiz.
+REDESIGN THESE LEVELS (keep the ones not listed):
+L10 (6/10): A near repeat of L5 (split at the heavy stop), with a long unequal lane and 5-hop segments that look like filler. → Replace it with a level that has a rider-count surprise, or shorten the corridor.
+L14 (6/10): A reskin of L13 with the same river-crossing choice. → Add a pier that needs two lines to share a tunnel stop.
+L21 (6/10): The twist is easily solved by trying both tunnels. The 3-column empty land bridge is wasted board space. → Make the land bridge shorter and put a heavy stop on it.
+L53 (6/10): Casual win rate is 63% for a mid-game level, with skilled 89%. The aha is a carriage-placement repeat. → Add a second land hazard.
+L58 (6/10): The goal is 139 of 164, but the intent text says the goal is 150 delivered. The tunnel and ferry compete trivially. → Fix the numbers.
+L64 (6/10): Casual win rate is 61% for a mid-city level, and the goal is tight. → Lower the goal.
+L102 (6/10): Casual win rate is 47% and skilled 83%. It has the lowest casual rate to date. → Lower the goal by ~8%.
+L107 (6/10): Casual win rate is 52% and skilled 79%. The board stacks 4 rules, and there are 3 silent kiosks as filler. → Drop the snow.
+L110 (6/10): Casual win rate is 55% and skilled 85%. A 'practise' level that is harder than the boss. → Lower the goal.
+L112 (6/10): Casual win rate is 50% and skilled 83%. A hard level, and the aha is a mirror of the next boss. → Lower the goal.
+L120 (6/10): Casual win rate is 55% and skilled 67%, which is the lowest skilled rate in the campaign. It is a spike for a 'gentle' finale and it stacks 5 rules. → Drop the waves or the card, and lower the goal so skilled is ~80%.
+L3 (7/10): Teaches short lines and the weekly card at once, and the card is a free gift with no decision. → Move the card pick to its own level, or make the cards a real choice.
+L6 (7/10): Casual win rate is 81%, but the 8-stop board has 8 first moves and the snake trap is obvious. → Add a decoy that is not the snake.
+L7 (7/10): The aha is a path-drawing puzzle, but the rule that the boathouse must be an end is easy to guess. → Give a second decoy end stop.
+L11 (7/10): Same aha as L4 and L6 (end the line at the late stop). The card is not a real choice because both options win. → Make one card clearly worse for the 3rd star.
+L12 (7/10): The aha is a rehash. The 3x3 grid with a tail is dense, and the search cap is hit. → Remove 2 stops, or cut the number of start options.
+L13 (7/10): The tunnel is taught beside a 2-line choice, so it is not alone. → Use a single-crossing board first.
+L15 (7/10): The board has a lot of empty column space (the 3-row river). → Shrink the river or add a second bank spur.
+L16 (7/10): Card judgement is spelled out by the card text, which says whether the goal is still reachable. → Remove the explicit hint.
+L18 (7/10): A 9-move boss on a 6-station board is reasonable, but skilled is only 88% and the card-free plan is easily guessed. → Add a card to the boss or give H a second pressure.
+L22 (7/10): Seven stops with a clear rule but a lot of repetition of L16. → Add an asymmetry so the choice is counted, not guessed.
+L23 (7/10): Casual win rate is 66%, which is the lowest so far, and the aha is another 'spend both'. → Add a decoy tunnel to a lower-value stop.
+L24 (7/10): The card is explicitly a non-decision, since both cards win. It is a weak send-off. → Make the tunnel card a real temptation that costs the 3rd star.
+L25 (7/10): Winding path board that is obviously a snake. → Fine, but add a visual hint at the line-length problem.
+L26 (7/10):  → Make a counterintuitive case where the long line is not the busiest.
+
+level-design score 7/10 — This is a thoughtful, fair-looking set with a clean teach, practise, twist, boss, breather rhythm in each city. It has a good set of "leave it unbuilt" and "read the forecast" ahas. Its weaknesses are heavy aha repetition ("split the snake, keep an end for the late stop"), many levels that are the same puzzle in new clothing, and several late spikes (L102, L110, L112, L120) with skilled win rates in the low 80s or below. It is solid, not yet Royal Match/Monument Valley tier. I rated only the levels I judged to be below 8 or to need a note. The rest are unlisted and I'd treat them as 8 or above.
+curve: Strong, well-sequenced campaign. Mechanics are introduced one per city (lines, tunnels, carriages, hills, ferries, snow, markets/interchanges, loops, waves, heritage). Each city runs teach, practise, combine, twist, boss, breather, send-off, and the breathers land after bosses. Problems:
+1) Repetition. Nearly every level has the same aha, "split the long line into short ones and keep a free end for the late station", and the same trap, "one long snake". About 40% of levels are reskins with a different hazard word. Tunnels, hills and ferries all say "put the slow thing on the quiet line".
+2) The aha type is too uniform. The "what to leave unbuilt" idea (L32, L46, L50, L75) and the "forecast reading" idea are the freshest, and each appears only a few times.
+3) Difficulty. The late third averages roughly 55-65% casual, which is on target. Several finales sit at 47-55% casual with skilled at 67-83% (L102, L110, L112, L120). L120 at 55/67 is a spike for a gentle send-off. L90 and L102 are close to the edge.
+4) Some mid-game levels have no trap hidden in them. L19, L55, L79, L103 and L115 are real breathers. L37, L61 and L63 are fine.
+5) Too many levels hinge on one fixed number: "27 vs 36 seats". Players will learn to count hops and ignore the board.
+6) Easy-streak risk. L19 is 93%, L31 is 92% and L37 is 93%, but they are separated. L7 and L13 are ≥ 87% and 90%, and L1-L4 are all easy by design.
+7) The campaign is too long at 120 levels for one idea per level. Cut about 25 filler levels or merge them.
+8) Boards are mostly small grids with little visual identity. Monument Valley-level spatial surprise is absent.
+9) The mechanic-stacking in the last 25 levels (L99-L120) is fine. The boss levels L107 and L119 stack three rules, which is more than one idea and verges on a quiz.

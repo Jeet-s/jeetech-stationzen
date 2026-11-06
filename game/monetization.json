@@ -1,0 +1,15 @@
+{
+  "_note": "Overwritten per game by the factory from its Play slot. These defaults are Google's public TEST ids, so unassigned builds never serve live ads.",
+  "admob": {
+    "appId": "ca-app-pub-3940256099942544~3347511713",
+    "banner": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial": "ca-app-pub-3940256099942544/1033173712",
+    "rewarded": "ca-app-pub-3940256099942544/5224354917",
+    "test": true
+  },
+  "iap": [
+    { "sku": "remove_ads", "title": "Remove Ads", "description": "Remove all interstitial and banner ads forever.", "priceUsd": 2.99, "consumable": false },
+    { "sku": "coins_small", "title": "Pile of Coins", "description": "500 coins to spend in the game.", "priceUsd": 0.99, "consumable": true, "coins": 500 },
+    { "sku": "coins_large", "title": "Chest of Coins", "description": "3000 coins to spend in the game.", "priceUsd": 4.99, "consumable": true, "coins": 3000 }
+  ]
+}

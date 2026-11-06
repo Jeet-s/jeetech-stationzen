@@ -1,0 +1,120 @@
+L1 First Line: plan 4 moves, 2 edits — A-B-C — wk1: nAB | wk2: e0tC
+L2 Change Here: plan 4 moves, 3 edits — A-B-D, B-C — wk1: nAB e0tD nBC — trap loses: 18 delivered, goal 22
+L3 Short Lines Run Often: plan 7 moves, 4 edits — A-B-C, D-E-F — wk1: nAB e0tC nDE e1tF | wk2: k1 — trap loses: E,F full wk4
+L4 Construction Site: plan 6 moves, 4 edits — C-A-B-D-E — wk1: nAC e0hB e0hD | wk3: e0tE
+L5 Mill Spur: plan 6 moves, 5 edits — A-B-C, D-C-E-F — wk1: nEF e0hC e0hD nAB e0tC — trap loses: F full wk5
+L6 Two Villages: plan 9 moves, 7 edits — C-A-B-D-E, H-F-G-I — wk1: nAC e0hB e0hD e0tE nFG | wk3: e1tI e1hH — trap loses: F,G,H full wk5
+L7 Willow Pond: plan 10 moves, 9 edits — F-D-A-B-C-E-I-H-G-K — wk1: nDF e0hA e0hB e0hC e0hE e0hI e0tH e0tG e0tK — trap loses: 20 delivered, goal 30
+L8 Morning Market: plan 8 moves, 6 edits — F-A-D-E-G-C-H — wk1: nAD e0tE e0tG e0tC | wk3: e0tH e0hF — trap loses: F,H,E full wk6
+L9 Cross Streets: plan 5 moves, 4 edits — A-C-D, B-C-E — wk1: nAC e0tD nBC e1tE — trap loses: E full wk4
+L10 Bakery Lane: plan 7 moves, 6 edits — A-B-C, C-D-E-F-G — wk1: nAB e0tC nCD e1tE e1tF e1tG — trap loses: C full wk6
+L11 Harvest Festival: plan 10 moves, 7 edits — B-A-E-F, D-C-G-I, G-H — wk1: nAB e0hE e0tF nCD e1hG nGH | wk3: k1 e1tI — trap loses: G,H,I full wk5
+L12 Willowmere Mastery: plan 11 moves, 9 edits — C-B-A-D-E, E-F-I-H-G-J — wk1: nBC e0hA e0hD e0tE nEF e1tI e1tH e1tG | wk3: e1tJ — trap loses: A,B,C,E full wk6
+L13 First Tunnel: plan 5 moves, 4 edits — A-B-C-E, A-D — wk1: nAB e0tC e0tE nAD — trap loses: 82 delivered, goal 90
+L14 Three Piers: plan 6 moves, 5 edits — A-B-C, A-D-E-F — wk1: nAB e0tC nAD e1tE e1tF — trap loses: C,F full wk3
+L15 Tunnel Shuttle: plan 6 moves, 5 edits — A-B, B-C-D-F, D-E — wk1: nAB nBC e1tD e1tF nDE — trap loses: A,B,D,E,F full wk6
+L16 Card Day: plan 8 moves, 5 edits — A-B-C-D-F-E — wk1: nAB e0tC e0tD | wk3: k1 e0tF e0tE — trap loses: F full wk6
+L17 Island Hop: plan 6 moves, 5 edits — A-B, B-C-D-E, B-F — wk1: nAB nBC e1tD e1tE nBF — trap loses: A,C,E,F full wk5
+L18 Save the Tunnel: plan 9 moves, 7 edits — A-B-C-E-G, A-D-F-H — wk1: nAB e0tC e0tE e0tG nAD e1tF | wk3: e1tH — trap loses: H full wk6
+L19 Smugglers' Cove: plan 7 moves, 6 edits — C-B-A-D, F-D-E-G — wk1: nDF e0hE e0hG nAD e0hB e0hC
+L20 Night Market: plan 5 moves, 4 edits — A-C, C-G-F-E — wk1: nAC nCG e1tF e1tE — trap loses: A,C full wk3
+L21 Spend Both: plan 8 moves, 7 edits — A-B-C-E-H, A-D-F-G — wk1: nAB e0tC e0tE e0tH nAD e1tF e1tG — trap loses: 120 delivered, goal 146
+L22 Lighthouse Rock: plan 8 moves, 6 edits — A-B-C-H, F-E-D-H — wk1: nAB e0tC nEF e1hD | wk3: e0tH e1hH — trap loses: A,B,C,H,D full wk6
+L23 Harbour Lights Festival: plan 7 moves, 6 edits — A-B-I-E-D, C-F-E — wk1: nAB e0tI e0tE e0tD nCF e1tE — trap loses: I full wk4
+L24 Market Pier: plan 8 moves, 6 edits — A-B-C-F, A-D-E-G — wk1: nAB e0tC e0tF nAD e1tE | wk3: e1tG — trap loses: G full wk5
+L25 First Carriage: plan 6 moves, 5 edits — A-B-C-D-E +1 carriage — wk1: nAB e0tC e0tD e0tE c0 — trap loses: 88 delivered, goal 108
+L26 Kite Street: plan 8 moves, 7 edits — A-B-C-F-G +1 carriage, C-D-E — wk1: nAB e0tC e0tF e0tG c0 nCD e1tE — trap loses: A full wk5
+L27 Stadium Transfer: plan 7 moves, 5 edits — A-D-E, F-D-H +1 carriage — wk1: nDF e0hH c0 nAD | wk3: e0tE — trap loses: H full wk6
+L28 Cup Tie: plan 8 moves, 6 edits — A-B, B-C-D-E-F +1 carriage — wk1: nAB nBC e1tD e1tE e1tF c1 — trap loses: F full wk4
+L29 Brookside: plan 8 moves, 7 edits — A-B-C-D, F-E-D-G-H — wk1: nAB e0tC e0tD nEF e1hD e1hG e1tH — trap loses: A,B,C,E,F full wk4
+L30 Derby Day: plan 10 moves, 7 edits — B-A-F, B-C-D-E-G +1 carriage — wk1: nAF e0hB nBC e1tD c1 | wk2: e1tE | wk4: e1tG — trap loses: F,G full wk7
+L31 Kite Hill: plan 5 moves, 4 edits — A-B, A-C-D-E — wk1: nAB nAC e1tD e1tE — trap loses: E full wk4
+L32 Ticket Queue: plan 9 moves, 6 edits — A-B-C-E-F-G, A-D — wk1: nAB e0tC e0tE nAD | wk4: k1 e0tF e0tG — trap loses: G full wk6
+L33 Lantern Lane: plan 8 moves, 7 edits — A-B-C, E-D-C-F-G +1 carriage — wk1: nAB e0tC nDE e1hC e1hF e1tG c1 — trap loses: C full wk6
+L34 Away End: plan 8 moves, 7 edits — C-B-A-H, C-D-F-E +1 carriage — wk1: nAH e0hB e0hC nCD e1tF e1tE c1 — trap loses: H,F,D full wk3
+L35 Cup Final: plan 12 moves, 10 edits — C-B-A-F-H +1 carriage, C-D-E-G-H +1 carriage — wk1: nBC e0hA e0hF nCD e1tE e1tG | wk3: e0tH c0 e1tH c1 — trap loses: A,B,C,D,E,F,H,G full wk4
+L36 Kitebrook Mastery: plan 10 moves, 7 edits — B-A-F, B-C-D-E-G +1 carriage — wk1: nAF e0hB nBC e1tD | wk3: e1tE | wk4: e1tG c1 — trap loses: A,B,F,G full wk5
+L37 First Climb: plan 4 moves, 3 edits — A-B-D-C — wk1: nAB e0tD e0tC
+L38 Ridge Road: plan 6 moves, 5 edits — A-B-C-D-F, A-E — wk1: nAB e0tC e0tD e0tF nAE — trap loses: A,B,C,D full wk5
+L39 Over the Top: plan 7 moves, 6 edits — A-C-D-E-F-G-B — wk1: nBG e0tF e0tE e0tD e0tC e0tA — trap loses: 45 delivered, goal 49
+L40 Hilltop Stand: plan 6 moves, 4 edits — A-B-C, C-E +1 carriage — wk1: nAB e0tC nCE c1 — trap loses: E full wk2
+L41 Long Way Round: plan 5 moves, 4 edits — A-B-D-F-E — wk1: nAB e0tD e0tF e0tE — trap loses: D full wk5
+L42 Harvest Fair: plan 7 moves, 6 edits — B-A-D, B-C-E-F +1 carriage — wk1: nAD e0hB nBC e1tE e1tF c1 — trap loses: C,E,F full wk6
+L43 Amber Lanterns: plan 6 moves, 5 edits — A-B-C-F-E, A-D — wk1: nAB e0tC e0tF e0tE nAD — trap loses: 49 delivered, goal 82
+L44 Toll Road: plan 8 moves, 6 edits — A-B-C, A-D-E-F-G — wk1: nAB e0tC nAD e1tE e1tF | wk4: e1tG — trap loses: G full wk6
+L45 Two Keys: plan 6 moves, 5 edits — A-B, A-C-D-E-F — wk1: nAB nAC e1tD e1tE e1tF — trap loses: A,B,C,D,E,F full wk5
+L46 Quarry Tunnel: plan 9 moves, 6 edits — A-B-C, A-D-E-F-H — wk1: nAB e0tC nAD e1tE e1tF | wk4: k0 e1tH — trap loses: D,H full wk7
+L47 Amberhill Festival: plan 8 moves, 6 edits — A-B-C-D, A-E-F-G — wk1: nAB e0tC e0tD nAE e1tF | wk3: e1tG — trap loses: G full wk6
+L48 Amberhill Mastery: plan 11 moves, 8 edits — A-B, A-D-E, B-C-F-G-H +1 carriage — wk1: nAB nAD e1tE nBC e2tF e2tG | wk3: k1 e2tH c2 — trap loses: H full wk6
+L49 Ferry Crossing: plan 4 moves, 3 edits — A-B, B-C, C-D — wk1: nAB nBC nCD — trap loses: A,B,C,D full wk4
+L50 Twin Ferries: plan 5 moves, 4 edits — A-B, B-C, C-D-E — wk1: nAB nBC nCD e2tE — trap loses: B,C,D full wk5
+L51 Two Boats: plan 7 moves, 6 edits — A-B-E-D, C-B-E-F — wk1: nAB e0tE e0tD nBC e1hE e1tF — trap loses: A,C,D,F full wk6
+L52 River or Sea: plan 6 moves, 5 edits — A-B, A-C-E-F, B-D — wk1: nAC e0tE e0tF nBD nAB — trap loses: A,C,E,B,D,F full wk4
+L53 Double Boat: plan 7 moves, 6 edits — C-B-A-D, C-E-F +1 carriage — wk1: nAD e0hB e0hC nCE e1tF c1 — trap loses: E,F full wk6
+L54 Lotus Market: plan 10 moves, 7 edits — A-B-C-D, A-E, D-G, E-F-H — wk1: nAE nAB e0tC e0tD nDG | wk3: k1 nEF e3tH — trap loses: H full wk7
+L55 Lotus Lagoon: plan 9 moves, 8 edits — A-B-C-D, A-E-F-G-H-D — wk1: nAB e0tC e0tD nAE e1tF e1tG e1tH e1tD — trap loses: B,C full wk5
+L56 Ridge or Ripple: plan 6 moves, 5 edits — A-B-C, A-D-E-F — wk1: nAB e0tC nAD e1tE e1tF — trap loses: A,B,D,E full wk4
+L57 Wrong Pier: plan 6 moves, 5 edits — A-B-C-D, E-D-F — wk1: nAB e0tC e0tD nDE e1hF — trap loses: E full wk4
+L58 Sea or River: plan 8 moves, 5 edits — A-B, A-D, B-C-F-E — wk1: nAB nAD nBC | wk3: k0 e2tF e2tE — trap loses: F full wk5
+L59 Lantern Regatta: plan 11 moves, 8 edits — C-B-A-D, D-E-F, D-G-H +1 carriage — wk1: nBC e0hA e0hD nEF e1hD nDG c2 | wk4: k1 e2tH — trap loses: H full wk7
+L60 Delta Mastery: plan 7 moves, 5 edits — B-A-D-E, C-F-G — wk1: nAB e0hD e0tE nCF | wk3: e1tG — trap loses: 41 delivered, goal 88
+L61 First Snow: plan 7 moves, 4 edits — A-B, B-C-D-E — wk1: nAB nBC e1tD e1tE — trap loses: A,B,C,D,E full wk5
+L62 Two Storms: plan 10 moves, 6 edits — B-A-D, B-C-E-G, F-G — wk1: nFG nAD e0hB nBC e1tE e1tG — trap loses: A,F,G full wk6
+L63 Snowbound Junction: plan 6 moves, 4 edits — A-B, B-C, B-D-E — wk1: nAB nBC nBD e2tE — trap loses: A,C,D full wk6
+L64 Frozen Ferry: plan 6 moves, 4 edits — A-B, B-C, D-C-E — wk1: nAB nBC nCD e2hE — trap loses: D full wk6
+L65 Hill Shuttle: plan 8 moves, 5 edits — A-B-E-F, B-C-D — wk1: nAB e0tE e0tF nBC e1tD — trap loses: 101 delivered, goal 128
+L66 Blizzard Pass: plan 9 moves, 5 edits — A-B-C, A-D-F-H — wk1: nAB e0tC nAD e1tF | wk3: e1tH — trap loses: B,C,H full wk6
+L67 Frost Garden: plan 7 moves, 5 edits — B-A-C-D +1 carriage, D-E — wk1: nAB e0hC e0tD c0 nDE — trap loses: D full wk5
+L68 Carriage for the Storm: plan 7 moves, 5 edits — A-C-D +1 carriage, B-C-E — wk1: nAC e0tD c0 nBC e1tE — trap loses: D full wk5
+L69 Storm Opening: plan 7 moves, 4 edits — A-B-C, C-D-E — wk1: nAB e0tC nCD | wk3: e1tE — trap loses: E full wk4
+L70 Ridge and Ice: plan 10 moves, 6 edits — B-A-E-F +1 carriage, B-C-D — wk1: nEF e0hA e0hB nBC e1tD | wk3: k1 c0 — trap loses: B,E,F full wk5
+L71 Midwinter Festival: plan 8 moves, 5 edits — A-B-D-H, A-C-E — wk1: nAB e0tD nAC e1tE | wk3: e0tH — trap loses: C,E,H full wk5
+L72 Frostholm Mastery: plan 10 moves, 6 edits — B-A-D, B-C-E-F +1 carriage — wk1: nAD e0hB nBC e1tE e1tF | wk3: k1 c1 — trap loses: B full wk5
+L73 Waiting Room: plan 6 moves, 4 edits — A-B, B-C-D-E — wk1: nAB nBC e1tD | wk4: e1tE — trap loses: A,B full wk4
+L74 Market Day: plan 6 moves, 4 edits — A-B-C-E, A-D — wk1: nAB e0tC e0tE nAD — trap loses: 114 delivered, goal 125
+L75 The Patient Interchange: plan 5 moves, 3 edits — A-B-C-E — wk1: nAB e0tC e0tE — trap loses: E full wk4
+L76 Snowy Market: plan 8 moves, 5 edits — A-B-E, B-C, C-D-F — wk1: nAB e0tE nBC nCD e2tF — trap loses: F full wk4
+L77 Two Markets: plan 9 moves, 7 edits — B-A-E-F, B-C-D-H-G — wk1: nEF e0hA e0hB nBC e1tD e1tH e1tG
+L78 Bazaar Gate: plan 11 moves, 6 edits — B-A-D, B-C-E, E-H — wk1: nAD e0hB nBC e1tE | wk2: k0 xH | wk4: nEH — trap loses: H full wk3
+L79 Spice Square: plan 5 moves, 4 edits — A-C-D, B-C-E — wk1: nAC e0tD nBC e1tE — trap loses: A,B,D,E full wk5
+L80 Seats or Space: plan 9 moves, 6 edits — A-B-C-D-F-E +1 carriage — wk1: nAB e0tC e0tD e0tF e0tE | wk2: k1 c0 — trap loses: A,B,C,E,F,D full wk5
+L81 The Waiting Stall: plan 9 moves, 6 edits — B-A-D-F +1 carriage, B-C-E — wk1: nAB e0hD e0tF c0 nBC e1tE — trap loses: A,D,F full wk5
+L82 Shuttle or Carriage: plan 9 moves, 5 edits — D-A-B-C-E +1 carriage — wk1: nAD e0hB e0hC e0hE | wk2: k1 c0 — trap loses: C,D,E full wk5
+L83 Lantern Night Bazaar: plan 12 moves, 7 edits — B-A-D-F, B-C-E-I +1 carriage — wk1: nDF e0hA e0hB nBC e1tE e1tI | wk3: k1 c1 — trap loses: C,E,I full wk6
+L84 Sunbazaar Mastery: plan 8 moves, 6 edits — A-B-D, C-D-E-F — wk1: nAB e0tD nCD e1tE e1tF xE — trap loses: B,E full wk4
+L85 Close the Ring: plan 7 moves, 6 edits — A-B-D-F-E-C (loop) — wk1: nAB e0tD e0tF e0tE e0tC o0 — trap loses: A,B,C,D,E,F full wk5
+L86 The Cut-Through: plan 7 moves, 6 edits — A-B-C-F-E-D (loop) — wk1: nAB e0tC e0tF e0tE e0tD o0 — trap loses: A,C full wk4
+L87 One Way Round: plan 7 moves, 6 edits — A-B-D-E-F-C (loop) — wk1: nAC e0hB e0hD e0tE e0tF o0 — trap loses: 90 delivered, goal 108
+L88 Leave a Gap: plan 7 moves, 5 edits — A-B-E-D-C (loop) — wk1: nAC e0hB e0hE | wk3: e0tD o0 — trap loses: E full wk5
+L89 The Short Ring: plan 8 moves, 7 edits — A-B-C-G-F-E (loop) +1 carriage — wk1: nAB e0tC e0tG e0tF e0tE o0 c0 — trap loses: A,B,C,E,F,G full wk5
+L90 Ring Road Fair: plan 10 moves, 8 edits — A-B-C-H-F-E-D (loop) +1 carriage — wk1: nBC e0hA e0hD e0tE e0tF c0 | wk3: e0tH o0 — trap loses: H full wk5
+L91 Lake Loop: plan 9 moves, 8 edits — A-B-D-F-H-G-E-C (loop) — wk1: nAB e0tD e0tF e0tH e0tG e0tE e0tC o0 — trap loses: 45 delivered, goal 74
+L92 Ferry Ring: plan 10 moves, 9 edits — D-C-B-A-E-F-G-H +2 carriage — wk1: nCD e0hB e0hA e0hE e0tF e0tG e0tH c0 c0 — trap loses: A,B,C,D,E,F,G,H full wk4
+L93 Opposite Arrows: plan 9 moves, 8 edits — A-B-E-D (loop), B-C-F-E (loop) — wk1: nBE e0tD e0tA o0 nBE e1tF e1tC o1 — trap loses: A,B,C,D,E,F full wk2
+L94 Three White Weeks: plan 11 moves, 8 edits — A-B-C-F-H-G-E-D (loop) — wk1: nAB e0tC e0tF e0tH e0tG e0tE e0tD o0 — trap loses: 49 delivered, goal 88
+L95 Ring Line Festival: plan 8 moves, 7 edits — A-B-C-E-D-X (loop) +1 carriage — wk1: nBC e0tE e0tD e0tX e0tA o0 c0 — trap loses: A,B,C,X,D,E full wk5
+L96 Ringvale Mastery: plan 10 moves, 7 edits — A-B-C-F-E-D (loop), F-G — wk1: nAB e0tC e0tF e0tE e0tD o0 | wk3: k1 nFG — trap loses: B,C,F,G full wk5
+L97 First Wave: plan 7 moves, 5 edits — D-A-B-C-E +1 carriage — wk1: nAD e0hB e0hC e0hE c0 — trap loses: A,B,C,D,E full wk6
+L98 Save It for the Second Wave: plan 12 moves, 7 edits — A-B-C-D-F-E (loop) +1 carriage — wk1: nAB e0tC e0tD e0tF e0tE o0 | wk4: k1 c0 — trap loses: A,B,C,D,E,F full wk7
+L99 Opening Day Rush: plan 10 moves, 7 edits — A-B-F-E-D-C (loop) +1 carriage — wk1: nDE e0tF e0tB e0hA c0 | wk4: e0tC o0 — trap loses: A,B,C,D,E,F full wk5
+L100 Two Triangles: plan 9 moves, 6 edits — A-B-X (loop), D-E-X (loop) — wk1: nAB e0tX o0 nDX e1hE o1 — trap loses: A,D,B,X,E full wk7
+L101 Two Halves: plan 7 moves, 4 edits — A-B-C, D-E-F — wk1: nAB e0tC nDE e1tF — trap loses: A,B,C,D,E,F full wk5
+L102 Neon Night Market: plan 14 moves, 9 edits — B-A-C, D-E-H-G-F-X (loop) +1 carriage — wk1: nAB e0hC nDX e1hE e1hH e1hG e1hF o1 c1 — trap loses: D,E,G,H full wk7
+L103 Lantern Lake: plan 11 moves, 8 edits — A-B-C-E-H-G-F-D (loop) — wk1: nAB e0tC e0tE e0tH e0tG e0tF e0tD o0
+L104 Ferry at Rush Hour: plan 10 moves, 7 edits — A-B-C-F-E-D (loop), C-G — wk1: nAB e0tC e0tF e0tE e0tD o0 nCG — trap loses: A,B,C,G,D full wk4
+L105 Wave Before the Tracks: plan 12 moves, 7 edits — A-B-D-F-E-C (loop) +1 carriage — wk1: nAC e0hB e0hD e0tF c0 | wk3: e0tE o0 — trap loses: B,C,D,E,F full wk7
+L106 Over the Hill: plan 10 moves, 7 edits — A-B-C-F-E-D (loop), B-E — wk1: nAB e0tC e0tF e0tE e0tD o0 nBE — trap loses: B,E,F full wk3
+L107 Neon Rush Festival: plan 10 moves, 6 edits — A-B-E-G-F-D (loop) — wk1: nAB e0hD e0tF e0tG | wk3: e0hE o0 — trap loses: E full wk6
+L108 Neon Quay Mastery: plan 9 moves, 6 edits — A-B-X (loop), C-E-D-X — wk1: nAB e0tX o0 nDX e1hE e1hC — trap loses: A,B,X full wk3
+L109 The Old Station: plan 5 moves, 4 edits — A-B-D, C-A-H — wk1: nAC e0hH nAB e0tD — trap loses: H,A,B,C,D full wk5
+L110 Two Old Gates: plan 7 moves, 6 edits — B-A-D-G, B-C-E-F — wk1: nDG e0hA e0hB nBC e1tE e1tF — trap loses: A,B,C,D,G,F full wk3
+L111 The Reopened Hall: plan 10 moves, 6 edits — A-H-B-D, E-C-A-H — wk1: nBD e0hH e0tA nAH e0hC e1hE — trap loses: H,C,E,D full wk3
+L112 Hilltop Chapel: plan 8 moves, 7 edits — A-B-C-F, A-D-E-H +1 carriage — wk1: nAB e0tC e0tF nAD e1tE e1tH c1 — trap loses: E,F,H full wk2
+L113 One Tunnel, Two Rings: plan 9 moves, 6 edits — A-B-E-D (loop), B-C-F — wk1: nAB e0tE e0tD o0 nBC e1tF — trap loses: A,D full wk5
+L114 Meridian Shield: plan 8 moves, 7 edits — A-H-C-D +1 carriage, B-K-F-E — wk1: nAH e0tC e0tD c0 nBK e1tF e1tE — trap loses: H,K full wk4
+L115 Meridian Gardens: plan 9 moves, 6 edits — F-B-A-P, G-D-C-P — wk1: nAP e0hB e0hF nCP e0hD e0hG — trap loses: 70 delivered, goal 110
+L116 The Arcade Gate: plan 7 moves, 6 edits — A-B-C-F-E-D (loop) — wk1: nAD e0hB e0hC e0hF e0tE o0 — trap loses: C,F full wk4
+L117 The Island Abbey: plan 8 moves, 7 edits — C-B-A-D-E, C-F-H +1 carriage — wk1: nBC e0hA e0hD e0tE nCF e1tH c1 — trap loses: H full wk2
+L118 Two Tunnels and a Ferry: plan 10 moves, 7 edits — A-B-C-F-E-D (loop) +1 carriage — wk1: nAB e0tC e0tF e0tE e0tD o0 c0 — trap loses: A,B,C,D,E,F full wk3
+L119 Meridian Festival: plan 10 moves, 7 edits — A-B-E-D (loop), B-C-E (loop) — wk1: nBE e0tD e0tA o0 nBE e1tC o1 — trap loses: A,B,C full wk6
+L120 Meridian Mastery: plan 9 moves, 6 edits — A-B-E-D-C (loop), A-T — wk1: nAB e0tE e0tD e0tC o0 nAT — trap loses: T,A full wk2

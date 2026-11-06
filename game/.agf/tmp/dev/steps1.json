@@ -1,0 +1,6 @@
+[{"wait":1500,"shot":"a_home"},{"tap":[540,1935]},{"wait":3500,"shot":"b_l1"},
+ {"swipe":[540,700,540,1100],"ms":700},{"wait":250,"shot":"c_l1_drawn"},{"wait":1200,"shot":"d_l1_after"},
+ {"swipe":[540,1100,540,1500],"ms":700},{"wait":1400,"shot":"e_l1_ext"},
+ {"tap":[750,2230]},{"wait":200,"shot":"f_run_press"},{"wait":900,"shot":"g_run_mid"},{"wait":3000,"shot":"h_run_end"},
+ {"tap":[750,2230]},{"wait":900,"shot":"i_run2_mid"},{"wait":3000,"shot":"j_run2_end"},
+ {"tap":[750,2230]},{"wait":900,"shot":"k_run3_mid"},{"wait":1200,"shot":"l_win1"},{"wait":2500,"shot":"m_win2"}]
